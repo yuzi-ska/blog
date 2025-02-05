@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on Yuzi-ska</title>
-        <link>https://web.yuzia.fun/person-blog/page/</link>
+        <link>https://yuzi6.github.io/person-blog/page/</link>
         <description>Recent content in Pages on Yuzi-ska</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://web.yuzia.fun/person-blog/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzi6.github.io/person-blog/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>归档</title>
-        <link>https://web.yuzia.fun/person-blog/archives/</link>
+        <link>https://yuzi6.github.io/person-blog/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://web.yuzia.fun/person-blog/archives/</guid>
+        <guid>https://yuzi6.github.io/person-blog/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>搜索</title>
-        <link>https://web.yuzia.fun/person-blog/search/</link>
+        <link>https://yuzi6.github.io/person-blog/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://web.yuzia.fun/person-blog/search/</guid>
+        <guid>https://yuzi6.github.io/person-blog/search/</guid>
         <description></description>
         </item>
         
