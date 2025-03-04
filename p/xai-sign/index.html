@@ -676,26 +676,5 @@ body {font-family: LXGW WenKai Screen;}
         if (document.readyState === "complete") NProgress.done();
     });
 </script>
-
-
-<div id="customize" style="display: none;">
-    
-        <script
-        async
-        defer
-        src="https://skana.cn:9000/api/application/embed?protocol=https&host=skana.cn:9000&token=15a900161fb03f0d">
-        </script>
-    
-    </div>
-    
-    <script>
-        let interval = setInterval(() => {
-            if (document.querySelector(".footer")) {
-                document.querySelector("#customize").style.display = "";
-                clearInterval(interval);
-            }
-        }, 200);
-    </script>
-
     </body>
 </html>
