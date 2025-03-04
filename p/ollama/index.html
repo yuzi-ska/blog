@@ -450,6 +450,30 @@ body {font-family: LXGW WenKai Screen;}
 </article>
 
             
+                
+<article class="has-image">
+    <a href="/p/">
+        
+        
+            <div class="article-image">
+                <img src="/p/1740150398299.fd286a4c3126fe1eeb8bbd6393ed1de1_hu_55f7a0a91f70904c.jpeg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post "
+                        
+                        data-hash="md5-/ShqTDEm/h7ri71jk&#43;0d4Q==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title"></h2>
+        </div>
+    </a>
+</article>
+
+            
         </div>
     </div>
 </aside>
@@ -573,6 +597,36 @@ body {font-family: LXGW WenKai Screen;}
         document.head.appendChild(customFont);
     }());
 </script>
+
+<script src="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/nprogress.min.js" integrity="sha384-bHDlAEUFxsRI7JfULv3DTpL2IXbbgn4JHQJibgo5iiXSK6Iu8muwqHANhun74Cqg" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/css/nprogress.css" integrity="sha384-KJyhr2syt5+4M9Pz5dipCvTrtvOmLk/olWVdfhAp858UCa64Ia5GFpTN7+G4BWpE" crossorigin="anonymous" />
+<script>
+    NProgress.start();
+    document.addEventListener("readystatechange", () => {
+        if (document.readyState === "interactive") NProgress.inc(0.8);
+        if (document.readyState === "complete") NProgress.done();
+    });
+</script>
+
+
+<div id="customize" style="display: none;">
+    
+        <script
+        async
+        defer
+        src="https://skana.cn:9000/api/application/embed?protocol=https&host=skana.cn:9000&token=15a900161fb03f0d">
+        </script>
+    
+    </div>
+    
+    <script>
+        let interval = setInterval(() => {
+            if (document.querySelector(".footer")) {
+                document.querySelector("#customize").style.display = "";
+                clearInterval(interval);
+            }
+        }, 200);
+    </script>
 
     </body>
 </html>
