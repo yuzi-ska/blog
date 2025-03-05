@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>虚拟机 - 虚拟机 - Router - 教程 on Yuzi-ska</title>
+        <link>http://localhost:1313/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA---%E8%99%9A%E6%8B%9F%E6%9C%BA---router---%E6%95%99%E7%A8%8B/</link>
+        <description>Recent content in 虚拟机 - 虚拟机 - Router - 教程 on Yuzi-ska</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Yuzi_ska Blog</copyright>
+        <lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA---%E8%99%9A%E6%8B%9F%E6%9C%BA---router---%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>使用虚拟机创建软路由实现魔法上网</title>
+        <link>http://localhost:1313/p/virtual-pc-deploy-router/</link>
+        <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/virtual-pc-deploy-router/</guid>
+        <description>&lt;img src="http://localhost:1313/p/virtual-pc-deploy-router/1740150398299.jpeg" alt="Featured image of post 使用虚拟机创建软路由实现魔法上网" /&gt;&lt;h2 id=&#34;准备工作&#34;&gt;准备工作
+&lt;/h2&gt;&lt;p&gt;需要有一个能够24小时开机的主机，比如在Nas或者Server上创建。&lt;/p&gt;
+&lt;p&gt;以我使用的群晖举例，首先在虚拟机的映像中选择硬盘映像&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/virtual-pc-deploy-router/_2025-03-05_23-13-29.png&#34;
+	width=&#34;885&#34;
+	height=&#34;520&#34;
+	srcset=&#34;http://localhost:1313/p/virtual-pc-deploy-router/_2025-03-05_23-13-29_hu_6de6d3bba868773a.png 480w, http://localhost:1313/p/virtual-pc-deploy-router/_2025-03-05_23-13-29_hu_db5df436faffa0e2.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;170&#34;
+		data-flex-basis=&#34;408px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

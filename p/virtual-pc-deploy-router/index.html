@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="准备工作 需要有一个能够24小时开机的主机，比如在Nas或者Server上创建。\n创建虚拟机 以我使用的群晖举例，首先在虚拟机的映像中选择硬盘映像，其他虚拟机大部分同理。\n">
+<title>使用虚拟机创建软（旁）路由实现魔法上网</title>
+
+<link rel='canonical' href='https://web.yuzia.fun/p/virtual-pc-deploy-router/'>
+
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="使用虚拟机创建软（旁）路由实现魔法上网">
+<meta property='og:description' content="准备工作 需要有一个能够24小时开机的主机，比如在Nas或者Server上创建。\n创建虚拟机 以我使用的群晖举例，首先在虚拟机的映像中选择硬盘映像，其他虚拟机大部分同理。\n">
+<meta property='og:url' content='https://web.yuzia.fun/p/virtual-pc-deploy-router/'>
+<meta property='og:site_name' content='Yuzi-ska'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-02-02T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-02-02T00:00:00&#43;00:00'/><meta property='og:image' content='https://web.yuzia.fun/p/virtual-pc-deploy-router/1740150398299.jpeg' />
+<meta name="twitter:title" content="使用虚拟机创建软（旁）路由实现魔法上网">
+<meta name="twitter:description" content="准备工作 需要有一个能够24小时开机的主机，比如在Nas或者Server上创建。\n创建虚拟机 以我使用的群晖举例，首先在虚拟机的映像中选择硬盘映像，其他虚拟机大部分同理。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://web.yuzia.fun/p/virtual-pc-deploy-router/1740150398299.jpeg' />
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-web/style.css" />
+
+<style>
+ 
+*{font-family:LXGW WenKai Screen}
+*{font-weight:Regular}
+body {font-family: LXGW WenKai Screen;}
+</style>
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_836c94502cedf801.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🌈</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Yuzi-ska</a></h1>
+            <h2 class="site-description">～(∠・ω&lt; )⌒☆</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://skana.cn:5255'
+                        target="_blank"
+                        title="alist"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-cloud"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6.657 18c-2.572 0 -4.657 -2.007 -4.657 -4.483c0 -2.475 2.085 -4.482 4.657 -4.482c.393 -1.762 1.794 -3.2 3.675 -3.773c1.88 -.572 3.956 -.193 5.444 1c1.488 1.19 2.162 3.007 1.77 4.769h.99c1.913 0 3.464 1.56 3.464 3.486c0 1.927 -1.551 3.487 -3.465 3.487h-11.878" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://space.bilibili.com/456293581'
+                        target="_blank"
+                        title="bilibili"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-bilibili"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 10a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-6z" /><path d="M8 3l2 3" /><path d="M16 3l-2 3" /><path d="M9 13v-2" /><path d="M15 11v2" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/yuzi-ska'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://page.yuzia.fun'
+                        target="_blank"
+                        title="page"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-rainbow"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M22 17c0 -5.523 -4.477 -10 -10 -10s-10 4.477 -10 10" /><path d="M18 17a6 6 0 1 0 -12 0" /><path d="M14 17a2 2 0 1 0 -4 0" /></svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#准备工作">准备工作</a></li>
+    <li><a href="#创建虚拟机">创建虚拟机</a></li>
+    <li><a href="#配置软路由">配置软路由</a>
+      <ol>
+        <li><a href="#命令行配置">命令行配置</a></li>
+        <li><a href="#网页配置">网页配置</a></li>
+        <li><a href="#魔法配置">魔法配置</a></li>
+        <li><a href="#配置文件设置">配置文件设置</a></li>
+        <li><a href="#更新内核">更新内核</a></li>
+      </ol>
+    </li>
+    <li><a href="#使用指南">使用指南</a></li>
+    <li><a href="#疑难杂症">疑难杂症</a></li>
+    <li><a href="#工具链接">工具链接</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/virtual-pc-deploy-router/">
+                <img src="/p/virtual-pc-deploy-router/1740150398299_hu_f26b76b7045ae33e.jpeg"
+                        srcset="/p/virtual-pc-deploy-router/1740150398299_hu_f26b76b7045ae33e.jpeg 800w, /p/virtual-pc-deploy-router/1740150398299_hu_e9a70493c2691f4.jpeg 1600w"
+                        width="800" 
+                        height="509" 
+                        loading="lazy"
+                        alt="Featured image of post 使用虚拟机创建软（旁）路由实现魔法上网" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E7%BE%A4%E6%99%96/" >
+                群晖
+            </a>
+        
+            <a href="/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/" >
+                虚拟机
+            </a>
+        
+            <a href="/categories/router/" >
+                Router
+            </a>
+        
+            <a href="/categories/%E6%95%99%E7%A8%8B/" >
+                教程
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/virtual-pc-deploy-router/">使用虚拟机创建软（旁）路由实现魔法上网</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2025-02-02</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 3 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="准备工作">准备工作
+</h2><p>需要有一个能够24小时开机的主机，比如在Nas或者Server上创建。</p>
+<h2 id="创建虚拟机">创建虚拟机
+</h2><p>以我使用的群晖举例，首先在虚拟机的映像中选择硬盘映像，其他虚拟机大部分同理。</p>
+<p><img src="/p/virtual-pc-deploy-router/_2025-03-05_23-13-29.png"
+	width="885"
+	height="520"
+	srcset="/p/virtual-pc-deploy-router/_2025-03-05_23-13-29_hu_6de6d3bba868773a.png 480w, /p/virtual-pc-deploy-router/_2025-03-05_23-13-29_hu_db5df436faffa0e2.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="170"
+		data-flex-basis="408px"
+	
+></p>
+<p>导入一个软路由的镜像，这里以openwrt高大全版本举例。</p>
+<p><img src="/p/virtual-pc-deploy-router/_2025-03-05_23-14-08.png"
+	width="690"
+	height="493"
+	srcset="/p/virtual-pc-deploy-router/_2025-03-05_23-14-08_hu_73670da7f316f9ef.png 480w, /p/virtual-pc-deploy-router/_2025-03-05_23-14-08_hu_a37c3bd70a7354d6.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="139"
+		data-flex-basis="335px"
+	
+></p>
+<p>再回到虚拟机界面选择导入。</p>
+<p><img src="/p/virtual-pc-deploy-router/_2025-03-05_23-16-22.png"
+	width="710"
+	height="521"
+	srcset="/p/virtual-pc-deploy-router/_2025-03-05_23-16-22_hu_82fff47edbcecddc.png 480w, /p/virtual-pc-deploy-router/_2025-03-05_23-16-22_hu_78c8d52c92e4cb20.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="136"
+		data-flex-basis="327px"
+	
+></p>
+<p>从硬盘映像导入。</p>
+<p><img src="/p/virtual-pc-deploy-router/_2025-03-05_23-19-27.png"
+	width="697"
+	height="532"
+	srcset="/p/virtual-pc-deploy-router/_2025-03-05_23-19-27_hu_69c007b7b188dac7.png 480w, /p/virtual-pc-deploy-router/_2025-03-05_23-19-27_hu_6724ae511895ee46.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="131"
+		data-flex-basis="314px"
+	
+></p>
+<p>规格默认即可。</p>
+<p><img src="/p/virtual-pc-deploy-router/_2025-03-05_23-19-42.png"
+	width="698"
+	height="539"
+	srcset="/p/virtual-pc-deploy-router/_2025-03-05_23-19-42_hu_a1dac99d988d9788.png 480w, /p/virtual-pc-deploy-router/_2025-03-05_23-19-42_hu_2b82863adb9a2231.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="129"
+		data-flex-basis="310px"
+	
+></p>
+<p>在存储空间里选择刚刚导入的硬盘镜像。</p>
+<p><img src="/p/virtual-pc-deploy-router/_2025-03-05_23-19-55.png"
+	width="704"
+	height="526"
+	srcset="/p/virtual-pc-deploy-router/_2025-03-05_23-19-55_hu_654f38073ee35911.png 480w, /p/virtual-pc-deploy-router/_2025-03-05_23-19-55_hu_c91f793600d54d74.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="133"
+		data-flex-basis="321px"
+	
+></p>
+<p>在网卡界面选择e1000（兼容性更好些）。</p>
+<p><img src="/p/virtual-pc-deploy-router/_2025-03-05_23-29-19.png"
+	width="700"
+	height="535"
+	srcset="/p/virtual-pc-deploy-router/_2025-03-05_23-29-19_hu_92ce63adc0df6949.png 480w, /p/virtual-pc-deploy-router/_2025-03-05_23-29-19_hu_c98a3b21e60755ff.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="130"
+		data-flex-basis="314px"
+	
+></p>
+<p>其余设置默认即可，<strong>自动启动</strong>按需选择即可。</p>
+<p>然后勾选创建完后打开虚拟机</p>
+<p><img src="/p/virtual-pc-deploy-router/_2025-03-05_23-21-29.png"
+	width="689"
+	height="526"
+	srcset="/p/virtual-pc-deploy-router/_2025-03-05_23-21-29_hu_7b0deaeb287bd444.png 480w, /p/virtual-pc-deploy-router/_2025-03-05_23-21-29_hu_ec60be64c7cc24dd.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="130"
+		data-flex-basis="314px"
+	
+></p>
+<p>然后回到虚拟机界面点击<strong>连接</strong></p>
+<h2 id="配置软路由">配置软路由
+</h2><h3 id="命令行配置">命令行配置
+</h3><p>来到以下界面后，按任意键位（只要不是系统键位都行）。</p>
+<p><img src="/p/virtual-pc-deploy-router/_2025-03-05_23-26-54.png"
+	width="2445"
+	height="1358"
+	srcset="/p/virtual-pc-deploy-router/_2025-03-05_23-26-54_hu_9b199dacb9b4fcde.png 480w, /p/virtual-pc-deploy-router/_2025-03-05_23-26-54_hu_174ea0cb0420fc8b.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="180"
+		data-flex-basis="432px"
+	
+></p>
+<p>进入到以下界面</p>
+<p><img src="/p/virtual-pc-deploy-router/_2025-03-05_23-34-33.png"
+	width="2445"
+	height="1358"
+	srcset="/p/virtual-pc-deploy-router/_2025-03-05_23-34-33_hu_5a303a02eb857e6d.png 480w, /p/virtual-pc-deploy-router/_2025-03-05_23-34-33_hu_4b38873f898756b8.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="180"
+		data-flex-basis="432px"
+	
+></p>
+<p>选择1，然后输入你的内网任意未被使用的IP地址，如果不确定，可以打开自己电脑的命令行窗口输入<code>ipconfig</code></p>
+<p><img src="/p/virtual-pc-deploy-router/_2025-03-05_23-40-33.png"
+	width="515"
+	height="73"
+	srcset="/p/virtual-pc-deploy-router/_2025-03-05_23-40-33_hu_7511edee6a37f4a5.png 480w, /p/virtual-pc-deploy-router/_2025-03-05_23-40-33_hu_1b6096472d364ca1.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="705"
+		data-flex-basis="1693px"
+	
+></p>
+<p>通常前三位就是局域网固定IP。</p>
+<p>输入完后回车，再输入4然后会确认是否需要重启，填入y重启。</p>
+<h3 id="网页配置">网页配置
+</h3><p>在浏览器中输入刚才选择的IP地址，进入页面</p>
+<p><img src="/p/virtual-pc-deploy-router/_2025-03-05_23-48-23.png"
+	width="686"
+	height="597"
+	srcset="/p/virtual-pc-deploy-router/_2025-03-05_23-48-23_hu_52d64f6045c9455d.png 480w, /p/virtual-pc-deploy-router/_2025-03-05_23-48-23_hu_6deea8c9e098235b.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="114"
+		data-flex-basis="275px"
+	
+></p>
+<p>默认无密码，进去后请先根据提示更改密码。</p>
+<p>更改密码后来到网络接口页面</p>
+<p><img src="/p/virtual-pc-deploy-router/_2025-03-05_23-51-41.png"
+	width="2434"
+	height="758"
+	srcset="/p/virtual-pc-deploy-router/_2025-03-05_23-51-41_hu_22de2f6079c24cb0.png 480w, /p/virtual-pc-deploy-router/_2025-03-05_23-51-41_hu_c0c6982f6fb1d523.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="321"
+		data-flex-basis="770px"
+	
+></p>
+<p>填写网关以及关闭IPV6和DHCP</p>
+<p><img src="/p/virtual-pc-deploy-router/_2025-03-05_23-52-31.png"
+	width="852"
+	height="1091"
+	srcset="/p/virtual-pc-deploy-router/_2025-03-05_23-52-31_hu_6d8d6ffc740d9d9f.png 480w, /p/virtual-pc-deploy-router/_2025-03-05_23-52-31_hu_e5f33ef11fa2b95c.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="78"
+		data-flex-basis="187px"
+	
+></p>
+<p><img src="/p/virtual-pc-deploy-router/_2025-03-05_23-52-45.png"
+	width="2215"
+	height="201"
+	srcset="/p/virtual-pc-deploy-router/_2025-03-05_23-52-45_hu_a259b5c621c34ecf.png 480w, /p/virtual-pc-deploy-router/_2025-03-05_23-52-45_hu_7b82e866d52a2096.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="1101"
+		data-flex-basis="2644px"
+	
+></p>
+<p><img src="/p/virtual-pc-deploy-router/_2025-03-05_23-53-00.png"
+	width="858"
+	height="454"
+	srcset="/p/virtual-pc-deploy-router/_2025-03-05_23-53-00_hu_ce14f5579daa2799.png 480w, /p/virtual-pc-deploy-router/_2025-03-05_23-53-00_hu_b7864d9583506ba6.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="188"
+		data-flex-basis="453px"
+	
+></p>
+<p>然后记得保存并应用接口配置就算完成了。</p>
+<h3 id="魔法配置">魔法配置
+</h3><p>能够使用的有很多种，以我常用的小猫咪举例。</p>
+<p>进入后可以先不下载内核。</p>
+<img src="_2025-03-05_23-49-22.png"  />
+<p>先进行以下更改</p>
+<p><img src="/p/virtual-pc-deploy-router/_2025-03-05_23-50-24.png"
+	width="1933"
+	height="1080"
+	srcset="/p/virtual-pc-deploy-router/_2025-03-05_23-50-24_hu_77d70adc1994e599.png 480w, /p/virtual-pc-deploy-router/_2025-03-05_23-50-24_hu_8d7234d70af3d4d.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="178"
+		data-flex-basis="429px"
+	
+></p>
+<p><img src="/p/virtual-pc-deploy-router/_2025-03-05_23-51-04.png"
+	width="1559"
+	height="911"
+	srcset="/p/virtual-pc-deploy-router/_2025-03-05_23-51-04_hu_fa3efedae62488cf.png 480w, /p/virtual-pc-deploy-router/_2025-03-05_23-51-04_hu_2b31945481a65551.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="171"
+		data-flex-basis="410px"
+	
+></p>
+<p>来到流量控制界面</p>
+<p><img src="/p/virtual-pc-deploy-router/_2025-03-05_23-54-18.png"
+	width="1463"
+	height="733"
+	srcset="/p/virtual-pc-deploy-router/_2025-03-05_23-54-18_hu_20cb7a73e980c6ca.png 480w, /p/virtual-pc-deploy-router/_2025-03-05_23-54-18_hu_54a18752f7d588d0.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="199"
+		data-flex-basis="479px"
+	
+></p>
+<p>来到覆写设置界面，需要把开发者选项中27行这串代码注释去掉，随后把下方自定义上游DNS服务全部取消勾选。</p>
+<p><img src="/p/virtual-pc-deploy-router/_2025-03-05_23-56-11.png"
+	width="2188"
+	height="1180"
+	srcset="/p/virtual-pc-deploy-router/_2025-03-05_23-56-11_hu_119eacbf452748b3.png 480w, /p/virtual-pc-deploy-router/_2025-03-05_23-56-11_hu_cc4fbdb625a98953.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="185"
+		data-flex-basis="445px"
+	
+></p>
+<p>覆写设置的DNS设置</p>
+<p><img src="/p/virtual-pc-deploy-router/_2025-03-05_23-56-48.png"
+	width="897"
+	height="912"
+	srcset="/p/virtual-pc-deploy-router/_2025-03-05_23-56-48_hu_9af3a6aa8214700.png 480w, /p/virtual-pc-deploy-router/_2025-03-05_23-56-48_hu_a8891dec8681457b.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="98"
+		data-flex-basis="236px"
+	
+></p>
+<p><img src="/p/virtual-pc-deploy-router/_2025-03-05_23-58-57.png"
+	width="1013"
+	height="913"
+	srcset="/p/virtual-pc-deploy-router/_2025-03-05_23-58-57_hu_54745e10ee0f3cd1.png 480w, /p/virtual-pc-deploy-router/_2025-03-05_23-58-57_hu_394c96ea6e9a6c1d.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="110"
+		data-flex-basis="266px"
+	
+></p>
+<h3 id="配置文件设置">配置文件设置
+</h3><p><strong>建议先用自带电脑把clash的配置拉取过来后新建一个<code>config.yaml</code>文件，然后把配置信息填入进去保存后再上传（原因是因为软路由这里订阅拉取经常拉取不到，如果能够拉取可以直接填写订阅地址即可）</strong></p>
+<p><img src="/p/virtual-pc-deploy-router/_2025-03-06_00-00-16.png"
+	width="1025"
+	height="747"
+	srcset="/p/virtual-pc-deploy-router/_2025-03-06_00-00-16_hu_51b844dda8a67c10.png 480w, /p/virtual-pc-deploy-router/_2025-03-06_00-00-16_hu_4ae99f96d1e54c00.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="137"
+		data-flex-basis="329px"
+	
+></p>
+<p><img src="/p/virtual-pc-deploy-router/_2025-03-05_23-59-38.png"
+	width="1753"
+	height="362"
+	srcset="/p/virtual-pc-deploy-router/_2025-03-05_23-59-38_hu_dca79859d9d744a0.png 480w, /p/virtual-pc-deploy-router/_2025-03-05_23-59-38_hu_32f156482a3c8d3f.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="484"
+		data-flex-basis="1162px"
+	
+></p>
+<h3 id="更新内核">更新内核
+</h3><p><strong>如果直接在界面下载无法更新内核，这时候需要用到ssh来进行上传文件</strong></p>
+<p>连接ssh，如果使用高大全版本则输入<code>9</code>退出菜单,其他版本则忽略。</p>
+<p><img src="/p/virtual-pc-deploy-router/_2025-03-06_00-21-31.png"
+	width="1022"
+	height="595"
+	srcset="/p/virtual-pc-deploy-router/_2025-03-06_00-21-31_hu_19f1dc2e7966c168.png 480w, /p/virtual-pc-deploy-router/_2025-03-06_00-21-31_hu_cbdb2c9d39418296.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="171"
+		data-flex-basis="412px"
+	
+></p>
+<p>tun模式内核默认在<code>/etc/openclash/core/clash_tun</code></p>
+<p>可以使用ftp工具将文件上传至这个目录，随后重新在插件见面启动即可。</p>
+<h2 id="使用指南">使用指南
+</h2><p>在网络节目修改以下信息即可</p>
+<p><img src="/p/virtual-pc-deploy-router/_2025-03-06_01-06-18.png"
+	width="450"
+	height="502"
+	srcset="/p/virtual-pc-deploy-router/_2025-03-06_01-06-18_hu_1fe086e4c2084ef6.png 480w, /p/virtual-pc-deploy-router/_2025-03-06_01-06-18_hu_d1679ad89516b297.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="89"
+		data-flex-basis="215px"
+	
+></p>
+<p>所有端同理，还有进阶玩法可以不用一个个修改，不过如果软路由损坏会导致家庭网络崩溃，无特殊需求可以不部署（后续也许会出一期qwq）</p>
+<h2 id="疑难杂症">疑难杂症
+</h2><ol>
+<li>
+<p>创建软路由的本体是否能够填写来进行魔法上网？</p>
+<p>答：虽然网络上有说不可以，但以我自己实测是可以使用的</p>
+</li>
+</ol>
+<h2 id="工具链接">工具链接
+</h2><p><a class="link" href="https://github.com/vernesong/OpenClash/releases/tag/TUN-Premium"  target="_blank" rel="noopener"
+    >TUN模式内核</a> | <a class="link" href="https://github.com/vernesong/OpenClash/releases/tag/TUN"  target="_blank" rel="noopener"
+    >TUN模式游戏内核</a></p>
+<p>Openwrt镜像：</p>
+<ol>
+<li><a class="link" href="https://pan.baidu.com/s/1WT2tE7yFPhQXeJ0owFZHhw?pwd=51jm"  target="_blank" rel="noopener"
+    >百度网盘</a> 提取码: 51jm</li>
+<li><a class="link" href="https://skana.cn:5255/%E6%96%87%E4%BB%B6%E5%88%86%E4%BA%AB/ISO%E7%B3%BB%E7%BB%9F%E9%95%9C%E5%83%8F/openwrt/%E9%AB%98%E5%A4%A7%E5%85%A8x86/openwrt6.1-gdq-20240601-x86-64-generic-squashfs-combined.img"  target="_blank" rel="noopener"
+    >Alist（目前仅支持IPV6）</a></li>
+</ol>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/xai-sign/">
+        
+        
+            <div class="article-image">
+                <img src="/p/xai-sign/20230715225556.b8541b4bb98c151599c54f48b3b9c001_hu_d22a0ae1c2745e6e.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post xAI注册与使用"
+                        data-key="xAI-sign" 
+                        data-hash="md5-uFQbS7mMFRWZxU9Is7nAAQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">xAI注册与使用</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/ollama/">
+        
+        
+            <div class="article-image">
+                <img src="/p/ollama/20230717095021.22e6e49e0a29246c06db764f19544d63_hu_a32a31ede594839.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 使用Ollama部署Ai模型"
+                        data-key="ollama" 
+                        data-hash="md5-IubkngopJGwG23ZPGVRNYw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">使用Ollama部署Ai模型</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
+<link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet'/>
+<div id="waline" class="waline-container"></div>
+<style>
+    .waline-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+        --waline-font-size: var(--article-font-size);
+    }
+    .waline-container .wl-count {
+        color: var(--card-text-color-main);
+    }
+</style><script>
+    
+    Waline.init({"dark":"html[data-scheme=\"dark\"]","el":"#waline","emoji":["https://unpkg.com/@waline/emojis@1.0.1/weibo","https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/alus","https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/qq","https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tw-emoji"],"lang":"zh-CN","locale":{"admin":"Admin","placeholder":null},"requiredMeta":["name","email","url"],"serverURL":"https://c.yuzia.fun/"});
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2024 - 
+        
+        2025 Yuzi_ska Blog
+    </section>
+    
+    <section class="powerby">
+        
+            原来博客不止我一个人看呀 <br/>
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+<script src="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/nprogress.min.js" integrity="sha384-bHDlAEUFxsRI7JfULv3DTpL2IXbbgn4JHQJibgo5iiXSK6Iu8muwqHANhun74Cqg" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/css/nprogress.css" integrity="sha384-KJyhr2syt5+4M9Pz5dipCvTrtvOmLk/olWVdfhAp858UCa64Ia5GFpTN7+G4BWpE" crossorigin="anonymous" />
+<script>
+    NProgress.start();
+    document.addEventListener("readystatechange", () => {
+        if (document.readyState === "interactive") NProgress.inc(0.8);
+        if (document.readyState === "complete") NProgress.done();
+    });
+</script>
+    </body>
+</html>
