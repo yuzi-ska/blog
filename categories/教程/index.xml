@@ -13,11 +13,11 @@
         <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
         
         <guid>https://web.yuzia.fun/p/virtual-pc-deploy-router/</guid>
-        <description>&lt;img src="https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/1740150398299.jpeg" alt="Featured image of post 使用虚拟机创建软（旁）路由实现魔法上网" /&gt;&lt;h2 id=&#34;准备工作&#34;&gt;准备工作
+        <description>&lt;img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/1740150398299.jpeg" alt="Featured image of post 使用虚拟机创建软（旁）路由实现魔法上网" /&gt;&lt;h2 id=&#34;准备工作&#34;&gt;准备工作
 &lt;/h2&gt;&lt;p&gt;需要有一个能够24小时开机的主机，比如在Nas或者Server上创建。&lt;/p&gt;
 &lt;h2 id=&#34;创建虚拟机&#34;&gt;创建虚拟机
 &lt;/h2&gt;&lt;p&gt;以我使用的群晖举例，首先在虚拟机的映像中选择硬盘映像，其他虚拟机大部分同理。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-13-29.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-13-29.png&#34;
 	
 	
 	
@@ -26,7 +26,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;导入一个软路由的镜像，这里以openwrt高大全版本举例。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-14-08.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-14-08.png&#34;
 	
 	
 	
@@ -35,7 +35,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;再回到虚拟机界面选择导入。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-16-22.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-16-22.png&#34;
 	
 	
 	
@@ -44,7 +44,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;从硬盘映像导入。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-19-27.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-19-27.png&#34;
 	
 	
 	
@@ -53,7 +53,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;规格默认即可。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-19-42.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-19-42.png&#34;
 	
 	
 	
@@ -62,7 +62,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;在存储空间里选择刚刚导入的硬盘镜像。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-19-55.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-19-55.png&#34;
 	
 	
 	
@@ -71,7 +71,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;在网卡界面选择e1000（兼容性更好些）。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-29-19.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-29-19.png&#34;
 	
 	
 	
@@ -81,7 +81,7 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;其余设置默认即可，&lt;strong&gt;自动启动&lt;/strong&gt;按需选择即可。&lt;/p&gt;
 &lt;p&gt;然后勾选创建完后打开虚拟机&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-21-29.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-21-29.png&#34;
 	
 	
 	
@@ -93,7 +93,7 @@
 &lt;h2 id=&#34;配置软路由&#34;&gt;配置软路由
 &lt;/h2&gt;&lt;h3 id=&#34;命令行配置&#34;&gt;命令行配置
 &lt;/h3&gt;&lt;p&gt;来到以下界面后，按任意键位（只要不是系统键位都行）。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-26-54.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-26-54.png&#34;
 	
 	
 	
@@ -102,7 +102,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;进入到以下界面&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-34-33.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-34-33.png&#34;
 	
 	
 	
@@ -111,7 +111,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;选择1，然后输入你的内网任意未被使用的IP地址，如果不确定，可以打开自己电脑的命令行窗口输入&lt;code&gt;ipconfig&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-40-33.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-40-33.png&#34;
 	
 	
 	
@@ -123,7 +123,7 @@
 &lt;p&gt;输入完后回车，再输入4然后会确认是否需要重启，填入y重启。&lt;/p&gt;
 &lt;h3 id=&#34;网页配置&#34;&gt;网页配置
 &lt;/h3&gt;&lt;p&gt;在浏览器中输入刚才选择的IP地址，进入页面&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-48-23.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-48-23.png&#34;
 	
 	
 	
@@ -133,7 +133,7 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;默认无密码，进去后请先根据提示更改密码。&lt;/p&gt;
 &lt;p&gt;更改密码后来到网络接口页面&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-51-41.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-51-41.png&#34;
 	
 	
 	
@@ -142,7 +142,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;填写网关以及关闭IPV6和DHCP&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-52-31.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-52-31.png&#34;
 	
 	
 	
@@ -162,7 +162,7 @@
 		data-flex-basis=&#34;2644px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-53-00.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-53-00.png&#34;
 	
 	
 	
@@ -174,7 +174,7 @@
 &lt;h3 id=&#34;魔法配置&#34;&gt;魔法配置
 &lt;/h3&gt;&lt;p&gt;能够使用的有很多种，以我常用的小猫咪举例。&lt;/p&gt;
 &lt;p&gt;进入后可以先不下载内核。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-49-22.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-49-22.png&#34;
 	
 	
 	
@@ -183,7 +183,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;先进行以下更改&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-50-24.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-50-24.png&#34;
 	
 	
 	
@@ -191,7 +191,7 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-51-04.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-51-04.png&#34;
 	
 	
 	
@@ -200,7 +200,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;来到流量控制界面&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-54-18.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-54-18.png&#34;
 	
 	
 	
@@ -209,7 +209,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;来到覆写设置界面，需要把开发者选项中27行这串代码注释去掉，随后把下方自定义上游DNS服务全部取消勾选。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-56-11.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-56-11.png&#34;
 	
 	
 	
@@ -218,7 +218,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;覆写设置的DNS设置&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-56-48.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-56-48.png&#34;
 	
 	
 	
@@ -226,7 +226,7 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-58-57.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-58-57.png&#34;
 	
 	
 	
@@ -236,7 +236,7 @@
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;配置文件设置&#34;&gt;配置文件设置
 &lt;/h3&gt;&lt;p&gt;&lt;strong&gt;建议先用自带电脑把clash的配置拉取过来后新建一个&lt;code&gt;config.yaml&lt;/code&gt;文件，然后把配置信息填入进去保存后再上传（原因是因为软路由这里订阅拉取经常拉取不到，如果能够拉取可以直接填写订阅地址即可）&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-06_00-00-16.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-06_00-00-16.png&#34;
 	
 	
 	
@@ -244,7 +244,7 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-59-38.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-05_23-59-38.png&#34;
 	
 	
 	
@@ -255,7 +255,7 @@
 &lt;h3 id=&#34;更新内核&#34;&gt;更新内核
 &lt;/h3&gt;&lt;p&gt;&lt;strong&gt;如果直接在界面下载无法更新内核，这时候需要用到ssh来进行上传文件&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;连接ssh，如果使用高大全版本则输入&lt;code&gt;9&lt;/code&gt;退出菜单,其他版本则忽略。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-06_00-21-31.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-06_00-21-31.png&#34;
 	
 	
 	
@@ -267,7 +267,7 @@
 &lt;p&gt;可以使用ftp工具将文件上传至这个目录，随后重新在插件见面启动即可。&lt;/p&gt;
 &lt;h2 id=&#34;使用指南&#34;&gt;使用指南
 &lt;/h2&gt;&lt;p&gt;在网络节目修改以下信息即可&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-06_01-06-18.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-06_01-06-18.png&#34;
 	
 	
 	
@@ -302,13 +302,13 @@
         <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
         
         <guid>https://web.yuzia.fun/p/xai-sign/</guid>
-        <description>&lt;img src="https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/20230715225556.png" alt="Featured image of post xAI注册与使用" /&gt;&lt;h2 id=&#34;入口与注册&#34;&gt;入口与注册
+        <description>&lt;img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/20230715225556.png" alt="Featured image of post xAI注册与使用" /&gt;&lt;h2 id=&#34;入口与注册&#34;&gt;入口与注册
 &lt;/h2&gt;&lt;p&gt;点击此处&lt;a class=&#34;link&#34; href=&#34;https://accounts.x.ai/sign-up?redirect=cloud-console&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;xAI&lt;/a&gt;进入注册入口&lt;/p&gt;
-&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-22_16-53-01.png&#34; alt=&#34;下载&#34;  /&gt;
+&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-22_16-53-01.png&#34; alt=&#34;下载&#34;  /&gt;
 &lt;p&gt;可以使用&lt;strong&gt;QQ邮箱&lt;/strong&gt;进行注册，如果有X账号或者谷歌账号直接登入即可。&lt;/p&gt;
 &lt;p&gt;如果选择注册，那么会跳出邮箱认证界面。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-22_16-56-34.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-22_16-56-34.png&#34;
 	
 	
 	
@@ -317,7 +317,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;在注册的邮箱内认证即可。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-22_16-58-35.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-22_16-58-35.png&#34;
 	
 	
 	
@@ -336,7 +336,7 @@
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;api获取&#34;&gt;API获取
 &lt;/h2&gt;&lt;p&gt;选择创建API key&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-22_17-02-29.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-22_17-02-29.png&#34;
 	
 	
 	
@@ -345,7 +345,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;创建后建议创建一个文本文档复制过去(&lt;strong&gt;请注意，该API只显示一次且建议不分享给任何人，如果分享给其他人，别人将可以使用你的API额度&lt;/strong&gt;)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-22_17-02-50.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-22_17-02-50.png&#34;
 	
 	
 	
@@ -354,7 +354,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;如果API泄漏或者忘记，可以前往左侧菜单栏第二位创建新的API&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-22_17-08-24.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-22_17-08-24.png&#34;
 	
 	
 	
@@ -363,7 +363,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;填写API名字后默认下一步即可。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-22_17-10-13.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-22_17-10-13.png&#34;
 	
 	
 	
@@ -372,7 +372,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;回到主页后可以查看额度使用情况。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-22_17-12-44.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-22_17-12-44.png&#34;
 	
 	
 	
@@ -392,12 +392,12 @@
         <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
         
         <guid>https://web.yuzia.fun/p/ollama/</guid>
-        <description>&lt;img src="https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/20230717095021.png" alt="Featured image of post 使用Ollama部署Ai模型" /&gt;&lt;h2 id=&#34;下载ollama&#34;&gt;下载Ollama
+        <description>&lt;img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/20230717095021.png" alt="Featured image of post 使用Ollama部署Ai模型" /&gt;&lt;h2 id=&#34;下载ollama&#34;&gt;下载Ollama
 &lt;/h2&gt;&lt;p&gt;点击此处下载&lt;a class=&#34;link&#34; href=&#34;https://ollama.com/download/windows&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Ollama&lt;/a&gt;，选择对应的系统版本下载即可。&lt;/p&gt;
-&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-18_00-43-45.png&#34; alt=&#34;install&#34; style=&#34;zoom:50%;&#34; /&gt;
+&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-18_00-43-45.png&#34; alt=&#34;install&#34; style=&#34;zoom:50%;&#34; /&gt;
 &lt;p&gt;随后来到安装界面，点击install，无需进行其他操作，等待完成即可。&lt;/p&gt;
-&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-18_00-45-55.png&#34; alt=&#34;安装&#34;  /&gt;
+&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-18_00-45-55.png&#34; alt=&#34;安装&#34;  /&gt;
 &lt;h2 id=&#34;调取ollama&#34;&gt;调取Ollama
 &lt;/h2&gt;&lt;p&gt;由于Ollama没有图形界面，所以需要使用命令行工具调取。&lt;/p&gt;
 &lt;p&gt;输入&lt;/p&gt;
@@ -410,17 +410,17 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;查看Ollama是否能被正常调用，如下图&lt;/p&gt;
-&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-18_00-51-33.png&#34; alt=&#34;调用&#34;  /&gt;
+&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-18_00-51-33.png&#34; alt=&#34;调用&#34;  /&gt;
 &lt;p&gt;显示以下结果即为正常。&lt;/p&gt;
 &lt;h2 id=&#34;下载模型&#34;&gt;下载模型
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;如果Ollama正常，前往&lt;a class=&#34;link&#34; href=&#34;https://ollama.com/search&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Ollama&lt;/a&gt;官网模型地址下载需要的模型。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;在Ollama模型地址打开任意一个模型，如下图演示的Ollama3.2模型。&lt;/p&gt;
-&lt;img src=&#34;2024-11-18_00-57-06.png&#34; alt=&#34;下载模型&#34;  /&gt;
+&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-18_00-57-06.png&#34; alt=&#34;下载模型&#34;  /&gt;
 &lt;p&gt;点击此处代码块右边的复制按键。&lt;/p&gt;
-&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-18_00-59-32.png&#34; alt=&#34;下载&#34;  /&gt;
+&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-18_00-59-32.png&#34; alt=&#34;下载&#34;  /&gt;
 &lt;p&gt;复制完成后打开命令行，将复制后的代码粘贴进去。&lt;/p&gt;
-&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-18_00-59-47.png&#34; alt=&#34;xiazai&#34;  /&gt;
+&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-18_00-59-47.png&#34; alt=&#34;xiazai&#34;  /&gt;
 &lt;p&gt;按下回车后即可开始下载。&lt;/p&gt;
 &lt;h2 id=&#34;查看下载的模型文件与调用&#34;&gt;查看下载的模型文件与调用
 &lt;/h2&gt;&lt;p&gt;可以通过输入&lt;/p&gt;
@@ -441,7 +441,7 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Ollama run 任意模型名字
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;img src=&#34;https://picgo-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-18_01-04-03.png&#34;  /&gt;
+&lt;/div&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-18_01-04-03.png&#34;  /&gt;
 &lt;p&gt;&lt;strong&gt;看到这样的提示则代表调用正常，就可以愉快的与大模型对话了，如果需要退出，可以直接关闭命令行，Ollama在一定时间后会自动释放显存，也可以输入“/bye”指令退出。&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;常见问题以及解决方案&#34;&gt;常见问题以及解决方案
 &lt;/h2&gt;&lt;h3 id=&#34;time-out报错&#34;&gt;&lt;strong&gt;time out报错&lt;/strong&gt;
