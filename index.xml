@@ -19,6 +19,13 @@
 &lt;/h2&gt;&lt;iframe src=&#34;https://www.google.com/maps/d/u/0/embed?mid=1-GJy5UJ9qab5ruxRFNESeRcLWvcE-0o&amp;ehbc=2E312F&#34; width=&#34;1000&#34; height=&#34;600&#34;&gt;&lt;/iframe&gt;
 &lt;h2 id=&#34;我的音乐&#34;&gt;我的音乐
 &lt;/h2&gt;&lt;iframe frameborder=&#34;no&#34; border=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; width=510 height=300 src=&#34;//music.163.com/outchain/player?type=0&amp;id=2394586983&amp;auto=0&amp;height=430&#34;&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;网站使用方案&#34;&gt;网站使用方案
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;家用Nas + Wordpress（会有一个端口号，弃用）&lt;/li&gt;
+&lt;li&gt;轻量级服务器 + Wordpress（太贵，服务器带宽也小，弃用）&lt;/li&gt;
+&lt;li&gt;Hugo + GitHub page （单GitHub page国内加载图片太慢，改用Hugo原因是Wordpress太臃肿了qwq）&lt;/li&gt;
+&lt;li&gt;Hugo + GitHub page + OSS图床 （目前使用）&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         </item>
         <item>
