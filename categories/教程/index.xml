@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>教程 on Yuzi-ska</title>
-        <link>https://web.yuzia.fun/categories/%E6%95%99%E7%A8%8B/</link>
+        <link>http://localhost:1313/categories/%E6%95%99%E7%A8%8B/</link>
         <description>Recent content in 教程 on Yuzi-ska</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Yuzi_ska Blog</copyright>
-        <lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://web.yuzia.fun/categories/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>使用虚拟机创建软（旁）路由实现魔法上网</title>
-        <link>https://web.yuzia.fun/p/virtual-pc-deploy-router/</link>
+        <link>http://localhost:1313/p/virtual-pc-deploy-router/</link>
         <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://web.yuzia.fun/p/virtual-pc-deploy-router/</guid>
+        <guid>http://localhost:1313/p/virtual-pc-deploy-router/</guid>
         <description>&lt;img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/1740150398299.jpeg" alt="Featured image of post 使用虚拟机创建软（旁）路由实现魔法上网" /&gt;&lt;h2 id=&#34;准备工作&#34;&gt;准备工作
 &lt;/h2&gt;&lt;p&gt;需要有一个能够24小时开机的主机，比如在Nas或者Server上创建。&lt;/p&gt;
 &lt;h2 id=&#34;创建虚拟机&#34;&gt;创建虚拟机
@@ -150,10 +150,10 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://web.yuzia.fun/p/virtual-pc-deploy-router/_2025-03-05_23-52-45.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/virtual-pc-deploy-router/_2025-03-05_23-52-45.png&#34;
 	width=&#34;2215&#34;
 	height=&#34;201&#34;
-	srcset=&#34;https://web.yuzia.fun/p/virtual-pc-deploy-router/_2025-03-05_23-52-45_hu_a259b5c621c34ecf.png 480w, https://web.yuzia.fun/p/virtual-pc-deploy-router/_2025-03-05_23-52-45_hu_7b82e866d52a2096.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/virtual-pc-deploy-router/_2025-03-05_23-52-45_hu_a259b5c621c34ecf.png 480w, http://localhost:1313/p/virtual-pc-deploy-router/_2025-03-05_23-52-45_hu_7b82e866d52a2096.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -298,10 +298,10 @@
         </item>
         <item>
         <title>xAI注册与使用</title>
-        <link>https://web.yuzia.fun/p/xai-sign/</link>
+        <link>http://localhost:1313/p/xai-sign/</link>
         <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://web.yuzia.fun/p/xai-sign/</guid>
+        <guid>http://localhost:1313/p/xai-sign/</guid>
         <description>&lt;img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/20230715225556.png" alt="Featured image of post xAI注册与使用" /&gt;&lt;h2 id=&#34;入口与注册&#34;&gt;入口与注册
 &lt;/h2&gt;&lt;p&gt;点击此处&lt;a class=&#34;link&#34; href=&#34;https://accounts.x.ai/sign-up?redirect=cloud-console&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;xAI&lt;/a&gt;进入注册入口&lt;/p&gt;
@@ -388,10 +388,10 @@
         </item>
         <item>
         <title>使用Ollama部署Ai模型</title>
-        <link>https://web.yuzia.fun/p/ollama/</link>
+        <link>http://localhost:1313/p/ollama/</link>
         <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://web.yuzia.fun/p/ollama/</guid>
+        <guid>http://localhost:1313/p/ollama/</guid>
         <description>&lt;img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/20230717095021.png" alt="Featured image of post 使用Ollama部署Ai模型" /&gt;&lt;h2 id=&#34;下载ollama&#34;&gt;下载Ollama
 &lt;/h2&gt;&lt;p&gt;点击此处下载&lt;a class=&#34;link&#34; href=&#34;https://ollama.com/download/windows&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Ollama&lt;/a&gt;，选择对应的系统版本下载即可。&lt;/p&gt;

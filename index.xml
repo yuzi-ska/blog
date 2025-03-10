@@ -2,17 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Yuzi-ska</title>
-        <link>https://web.yuzia.fun/</link>
+        <link>http://localhost:1313/</link>
         <description>Recent content on Yuzi-ska</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Yuzi_ska Blog</copyright>
-        <lastBuildDate>Wed, 05 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://web.yuzia.fun/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>emby部分反向代理加载缓慢解决方案</title>
+        <link>http://localhost:1313/p/emby-agency/</link>
+        <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/emby-agency/</guid>
+        <description>&lt;img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/1740150509508.jpg" alt="Featured image of post emby部分反向代理加载缓慢解决方案" /&gt;&lt;h2 id=&#34;解决方案&#34;&gt;解决方案
+&lt;/h2&gt;&lt;p&gt;直接给出解决方案，在emby网络内将安全连接模式改成由反向代理处理即可。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-03-10_22-20-03.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;（水一期（￣︶￣）↗　）&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>关于</title>
-        <link>https://web.yuzia.fun/%E5%85%B3%E4%BA%8E/</link>
+        <link>http://localhost:1313/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://web.yuzia.fun/%E5%85%B3%E4%BA%8E/</guid>
+        <guid>http://localhost:1313/%E5%85%B3%E4%BA%8E/</guid>
         <description>&lt;img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/1740205813596.jpeg" alt="Featured image of post 关于" /&gt;&lt;h2 id=&#34;联系地址&#34;&gt;&lt;strong&gt;联系地址&lt;/strong&gt;
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;mailto:yuzi@skana.cn&#34; &gt;🍔邮箱&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;我的旅行记录&#34;&gt;我的旅行记录
@@ -30,10 +49,10 @@
         </item>
         <item>
         <title>使用虚拟机创建软（旁）路由实现魔法上网</title>
-        <link>https://web.yuzia.fun/p/virtual-pc-deploy-router/</link>
+        <link>http://localhost:1313/p/virtual-pc-deploy-router/</link>
         <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://web.yuzia.fun/p/virtual-pc-deploy-router/</guid>
+        <guid>http://localhost:1313/p/virtual-pc-deploy-router/</guid>
         <description>&lt;img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/1740150398299.jpeg" alt="Featured image of post 使用虚拟机创建软（旁）路由实现魔法上网" /&gt;&lt;h2 id=&#34;准备工作&#34;&gt;准备工作
 &lt;/h2&gt;&lt;p&gt;需要有一个能够24小时开机的主机，比如在Nas或者Server上创建。&lt;/p&gt;
 &lt;h2 id=&#34;创建虚拟机&#34;&gt;创建虚拟机
@@ -171,10 +190,10 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://web.yuzia.fun/p/virtual-pc-deploy-router/_2025-03-05_23-52-45.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/virtual-pc-deploy-router/_2025-03-05_23-52-45.png&#34;
 	width=&#34;2215&#34;
 	height=&#34;201&#34;
-	srcset=&#34;https://web.yuzia.fun/p/virtual-pc-deploy-router/_2025-03-05_23-52-45_hu_a259b5c621c34ecf.png 480w, https://web.yuzia.fun/p/virtual-pc-deploy-router/_2025-03-05_23-52-45_hu_7b82e866d52a2096.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/virtual-pc-deploy-router/_2025-03-05_23-52-45_hu_a259b5c621c34ecf.png 480w, http://localhost:1313/p/virtual-pc-deploy-router/_2025-03-05_23-52-45_hu_7b82e866d52a2096.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -319,10 +338,10 @@
         </item>
         <item>
         <title>xAI注册与使用</title>
-        <link>https://web.yuzia.fun/p/xai-sign/</link>
+        <link>http://localhost:1313/p/xai-sign/</link>
         <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://web.yuzia.fun/p/xai-sign/</guid>
+        <guid>http://localhost:1313/p/xai-sign/</guid>
         <description>&lt;img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/20230715225556.png" alt="Featured image of post xAI注册与使用" /&gt;&lt;h2 id=&#34;入口与注册&#34;&gt;入口与注册
 &lt;/h2&gt;&lt;p&gt;点击此处&lt;a class=&#34;link&#34; href=&#34;https://accounts.x.ai/sign-up?redirect=cloud-console&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;xAI&lt;/a&gt;进入注册入口&lt;/p&gt;
@@ -409,18 +428,18 @@
         </item>
         <item>
         <title>归档</title>
-        <link>https://web.yuzia.fun/archives/</link>
+        <link>http://localhost:1313/archives/</link>
         <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://web.yuzia.fun/archives/</guid>
-        <description>&lt;img src="https://web.yuzia.fun/archives/4h74u00otutgj95gvizoqcpzi.jpg" alt="Featured image of post 归档" /&gt;</description>
+        <guid>http://localhost:1313/archives/</guid>
+        <description>&lt;img src="http://localhost:1313/archives/4h74u00otutgj95gvizoqcpzi.jpg" alt="Featured image of post 归档" /&gt;</description>
         </item>
         <item>
         <title>使用Ollama部署Ai模型</title>
-        <link>https://web.yuzia.fun/p/ollama/</link>
+        <link>http://localhost:1313/p/ollama/</link>
         <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://web.yuzia.fun/p/ollama/</guid>
+        <guid>http://localhost:1313/p/ollama/</guid>
         <description>&lt;img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/20230717095021.png" alt="Featured image of post 使用Ollama部署Ai模型" /&gt;&lt;h2 id=&#34;下载ollama&#34;&gt;下载Ollama
 &lt;/h2&gt;&lt;p&gt;点击此处下载&lt;a class=&#34;link&#34; href=&#34;https://ollama.com/download/windows&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Ollama&lt;/a&gt;，选择对应的系统版本下载即可。&lt;/p&gt;
@@ -479,10 +498,10 @@
         </item>
         <item>
         <title>搜索</title>
-        <link>https://web.yuzia.fun/search/</link>
+        <link>http://localhost:1313/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://web.yuzia.fun/search/</guid>
+        <guid>http://localhost:1313/search/</guid>
         <description></description>
         </item>
         
