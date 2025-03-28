@@ -2,18 +2,18 @@
 <html lang="zh-cn" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="This is an example category">
-<title>Test</title>
+<title>技术</title>
 
 <link rel='canonical' href='http://localhost:1313/categories/test/'>
 
-<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="Test">
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="技术">
 <meta property='og:description' content="This is an example category">
 <meta property='og:url' content='http://localhost:1313/categories/test/'>
 <meta property='og:site_name' content='Yuzi-ska'>
-<meta property='og:type' content='article'><meta property='article:section' content='Categories' /><meta property='og:image' content='http://localhost:1313/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg' />
-<meta name="twitter:title" content="Test">
+<meta property='og:type' content='article'><meta property='article:section' content='Categories' /><meta property='og:image' content='http://localhost:1313/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg' />
+<meta name="twitter:title" content="技术">
 <meta name="twitter:description" content="This is an example category"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg' />
+    <meta name="twitter:image" content='http://localhost:1313/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-web/style.css" />
@@ -24,6 +24,7 @@
 *{font-weight:Regular}
 body {font-family: LXGW WenKai Screen;}
 </style>
+
     </head>
     <body class="
     article-page
@@ -264,12 +265,8 @@ body {font-family: LXGW WenKai Screen;}
     <header class="article-header">
         <div class="article-image">
             <a href="/categories/test/">
-                <img src="/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash_hu_aea71432b2372075.jpg"
-                        srcset="/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash_hu_aea71432b2372075.jpg 800w, /categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash_hu_7ac75942c6f26c46.jpg 1600w"
-                        width="800" 
-                        height="1200" 
-                        loading="lazy"
-                        alt="Featured image of post Test" />
+                
+                    <img src="/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" loading="lazy" alt="Featured image of post 技术" />
                 
             </a>
         </div>
@@ -280,7 +277,7 @@ body {font-family: LXGW WenKai Screen;}
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/categories/test/">Test</a>
+            <a href="/categories/test/">技术</a>
         </h2>
     
         
@@ -364,23 +361,35 @@ body {font-family: LXGW WenKai Screen;}
 
     
 
-    <footer class="site-footer">
-    <section class="copyright">
-        &copy; 
-        
-            2024 - 
-        
-        2025 Yuzi_ska Blog
+    
+<section class="running-time">
+    本博客已稳定运行
+    <span id="runningdays" class="running-days"></span>
     </section>
     
-    <section class="powerby">
-        
-            原来博客不止我一个人看呀 <br/>
-        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
-        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
-    </section>
-</footer>
 
+<section class="totalcount">
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    发表了4篇文章 · 
+    总计1.96k字
+</section>
 
     
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
@@ -487,6 +496,21 @@ body {font-family: LXGW WenKai Screen;}
         if (document.readyState === "interactive") NProgress.inc(0.8);
         if (document.readyState === "complete") NProgress.done();
     });
+</script>
+
+
+<script>
+    let s1 = '2024-11-18'; 
+    s1 = new Date(s1.replace(/-/g, "/"));
+    let s2 = new Date();
+    let timeDifference = s2.getTime() - s1.getTime();
+
+    let days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+
+    let result = days + "天" + hours + "小时" + minutes + "分钟";
+    document.getElementById('runningdays').innerHTML = result;
 </script>
     </body>
 </html>
