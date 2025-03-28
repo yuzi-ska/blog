@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Router on Yuzi-ska</title>
-        <link>http://localhost:1313/categories/router/</link>
+        <link>https://web.yuzia.fun/categories/router/</link>
         <description>Recent content in Router on Yuzi-ska</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Yuzi_ska Blog</copyright>
-        <lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/router/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://web.yuzia.fun/categories/router/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>使用虚拟机创建软（旁）路由实现魔法上网</title>
-        <link>http://localhost:1313/p/virtual-pc-deploy-router/</link>
+        <link>https://web.yuzia.fun/p/virtual-pc-deploy-router/</link>
         <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/virtual-pc-deploy-router/</guid>
+        <guid>https://web.yuzia.fun/p/virtual-pc-deploy-router/</guid>
         <description>&lt;img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/1740150398299.jpeg" alt="Featured image of post 使用虚拟机创建软（旁）路由实现魔法上网" /&gt;&lt;h2 id=&#34;准备工作&#34;&gt;准备工作
 &lt;/h2&gt;&lt;p&gt;需要有一个能够24小时开机的主机，比如在Nas或者Server上创建。&lt;/p&gt;
 &lt;h2 id=&#34;创建虚拟机&#34;&gt;创建虚拟机
@@ -150,10 +150,10 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/virtual-pc-deploy-router/_2025-03-05_23-52-45.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://web.yuzia.fun/p/virtual-pc-deploy-router/_2025-03-05_23-52-45.png&#34;
 	width=&#34;2215&#34;
 	height=&#34;201&#34;
-	srcset=&#34;http://localhost:1313/p/virtual-pc-deploy-router/_2025-03-05_23-52-45_hu_a259b5c621c34ecf.png 480w, http://localhost:1313/p/virtual-pc-deploy-router/_2025-03-05_23-52-45_hu_7b82e866d52a2096.png 1024w&#34;
+	srcset=&#34;https://web.yuzia.fun/p/virtual-pc-deploy-router/_2025-03-05_23-52-45_hu_a259b5c621c34ecf.png 480w, https://web.yuzia.fun/p/virtual-pc-deploy-router/_2025-03-05_23-52-45_hu_7b82e866d52a2096.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

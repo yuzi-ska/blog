@@ -2,59 +2,59 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://web.yuzia.fun/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://web.yuzia.fun/categories/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/emby-agency/</loc>
+    <loc>https://web.yuzia.fun/p/emby-agency/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://web.yuzia.fun/post/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E6%96%B9%E6%A1%88%E5%88%86%E4%BA%AB/</loc>
+    <loc>https://web.yuzia.fun/categories/%E6%96%B9%E6%A1%88%E5%88%86%E4%BA%AB/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E6%8A%80%E6%9C%AF/</loc>
+    <loc>https://web.yuzia.fun/categories/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/page/</loc>
+    <loc>https://web.yuzia.fun/page/</loc>
     <lastmod>2025-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/%E5%85%B3%E4%BA%8E/</loc>
+    <loc>https://web.yuzia.fun/%E5%85%B3%E4%BA%8E/</loc>
     <lastmod>2025-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/router/</loc>
+    <loc>https://web.yuzia.fun/categories/router/</loc>
     <lastmod>2025-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://web.yuzia.fun/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2025-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E7%BE%A4%E6%99%96/</loc>
+    <loc>https://web.yuzia.fun/categories/%E7%BE%A4%E6%99%96/</loc>
     <lastmod>2025-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/virtual-pc-deploy-router/</loc>
+    <loc>https://web.yuzia.fun/p/virtual-pc-deploy-router/</loc>
     <lastmod>2025-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/</loc>
+    <loc>https://web.yuzia.fun/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/</loc>
     <lastmod>2025-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/ai/</loc>
+    <loc>https://web.yuzia.fun/categories/ai/</loc>
     <lastmod>2024-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/xai-sign/</loc>
+    <loc>https://web.yuzia.fun/p/xai-sign/</loc>
     <lastmod>2024-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://web.yuzia.fun/archives/</loc>
     <lastmod>2024-11-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/ollama/</loc>
+    <loc>https://web.yuzia.fun/p/ollama/</loc>
     <lastmod>2024-11-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://web.yuzia.fun/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://web.yuzia.fun/search/</loc>
   </url>
 </urlset>

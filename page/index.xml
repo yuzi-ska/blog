@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on Yuzi-ska</title>
-        <link>http://localhost:1313/page/</link>
+        <link>https://web.yuzia.fun/page/</link>
         <description>Recent content in Pages on Yuzi-ska</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Yuzi_ska Blog</copyright>
-        <lastBuildDate>Wed, 05 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 05 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://web.yuzia.fun/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>关于</title>
-        <link>http://localhost:1313/%E5%85%B3%E4%BA%8E/</link>
+        <link>https://web.yuzia.fun/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/%E5%85%B3%E4%BA%8E/</guid>
+        <guid>https://web.yuzia.fun/%E5%85%B3%E4%BA%8E/</guid>
         <description>&lt;img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/1740205813596.jpeg" alt="Featured image of post 关于" /&gt;&lt;h2 id=&#34;联系地址&#34;&gt;&lt;strong&gt;联系地址&lt;/strong&gt;
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;mailto:yuzi@skana.cn&#34; &gt;🍔邮箱&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;我的旅行记录&#34;&gt;我的旅行记录
-&lt;/h2&gt;&lt;iframe src=&#34;https://www.google.com/maps/d/u/0/embed?mid=1-GJy5UJ9qab5ruxRFNESeRcLWvcE-0o&amp;ehbc=2E312F&#34; width=&#34;1000&#34; height=&#34;600&#34;&gt;&lt;/iframe&gt;
+&lt;/h2&gt;&lt;iframe src=&#34;https://www.google.com/maps/d/embed?mid=1-GJy5UJ9qab5ruxRFNESeRcLWvcE-0o&amp;ehbc=2E312F&#34; width=&#34;640&#34; height=&#34;480&#34;&gt;&lt;/iframe&gt;
 &lt;h2 id=&#34;我的音乐&#34;&gt;我的音乐
 &lt;/h2&gt;&lt;iframe frameborder=&#34;no&#34; border=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; width=510 height=300 src=&#34;//music.163.com/outchain/player?type=0&amp;id=2394586983&amp;auto=0&amp;height=430&#34;&gt;&lt;/iframe&gt;
 &lt;h2 id=&#34;网站使用方案&#34;&gt;网站使用方案
@@ -30,18 +30,18 @@
         </item>
         <item>
         <title>归档</title>
-        <link>http://localhost:1313/archives/</link>
+        <link>https://web.yuzia.fun/archives/</link>
         <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/archives/</guid>
-        <description>&lt;img src="http://localhost:1313/archives/4h74u00otutgj95gvizoqcpzi.jpg" alt="Featured image of post 归档" /&gt;</description>
+        <guid>https://web.yuzia.fun/archives/</guid>
+        <description>&lt;img src="https://web.yuzia.fun/archives/4h74u00otutgj95gvizoqcpzi.jpg" alt="Featured image of post 归档" /&gt;</description>
         </item>
         <item>
         <title>搜索</title>
-        <link>http://localhost:1313/search/</link>
+        <link>https://web.yuzia.fun/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/search/</guid>
+        <guid>https://web.yuzia.fun/search/</guid>
         <description></description>
         </item>
         
