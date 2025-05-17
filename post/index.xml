@@ -7,14 +7,33 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Yuzi_ska Blog</copyright>
-        <lastBuildDate>Sun, 13 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzia.fun/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 17 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzia.fun/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>bilibili屏蔽提示词分享</title>
+        <link>https://yuzia.fun/p/bilibili-block/</link>
+        <pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yuzia.fun/p/bilibili-block/</guid>
+        <description>&lt;img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/1740150509512.png" alt="Featured image of post bilibili屏蔽提示词分享" /&gt;&lt;h1 id=&#34;前言&#34;&gt;前言
+&lt;/h1&gt;&lt;p&gt;个人觉得目前bilibili的弹幕太多无意义弹幕太多，有一大堆引战、刷屏的弹幕，实际观感很差，官方又下架了弹幕屏蔽功能，因此添加了一大堆目前发送比较多的弹幕进行屏蔽，内容可以根据个人需求更改，后续会不定时更新。&lt;/p&gt;
+&lt;p&gt;以下是大致预览图：&lt;/p&gt;
+&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-05-17_10-53-11.png&#34; alt=&#34;_2025-05-17_10-53-11&#34; style=&#34;zoom: 80%;&#34; /&gt;
+&lt;img src=&#34;https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/_2025-05-17_10-54-27.png&#34; alt=&#34;_2025-05-17_10-54-27&#34; style=&#34;zoom: 80%;&#34; /&gt;
+&lt;h1 id=&#34;使用与下载&#34;&gt;使用与下载
+&lt;/h1&gt;&lt;p&gt;前往bilibili网页端屏蔽设定选项右键导入json文件即可&lt;/p&gt;
+&lt;p&gt;下载地址：&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1ScVgDU4Hjfes3G-UTek-u6CICdVmXJqd/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Google云盘&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://wway.lanzoue.com/iG0Uy2wgcz1e&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;蓝奏云&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>有关Python的书籍整理</title>
         <link>https://yuzia.fun/p/pythonbook/</link>
         <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
         
         <guid>https://yuzia.fun/p/pythonbook/</guid>
-        <description>&lt;img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/1740150398344.png" alt="Featured image of post 有关Python的书籍整理" /&gt;&lt;h1 id=&#34;总分类&#34;&gt;总分类
-&lt;/h1&gt;&lt;h2 id=&#34;入门&#34;&gt;入门
+        <description>&lt;img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/1740150398344.png" alt="Featured image of post 有关Python的书籍整理" /&gt;&lt;h2 id=&#34;入门&#34;&gt;入门
 &lt;/h2&gt;&lt;h4 id=&#34;python编程从入门到实践&#34;&gt;📘&lt;strong&gt;《Python编程：从入门到实践》&lt;/strong&gt;
 &lt;/h4&gt;&lt;p&gt;✨ &lt;strong&gt;特点&lt;/strong&gt;：&lt;/p&gt;
 &lt;ul&gt;
@@ -26,17 +45,8 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;每章配有「动手试一试」练习题&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;实体书&lt;/strong&gt;：&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.amazon.com/-/zh/dp/B01ION3VWI?__mk_zh_CN=%E4%BA%9A%E9%A9%AC%E9%80%8A%E7%BD%91%E7%AB%99&amp;amp;crid=G8KCEAMHDUBY&amp;amp;dib=eyJ2IjoiMSJ9.75gaabk9azrzmFVaex20ebtSVkFOfYNUq9DNj3wdHBDcUcR3pWgxDKRrdc03_b5HwoOarFyl1Dz2jdgr_UjH9giOTMnYzTLNFIgVjaHs0z4X5S8kcv4_yk7BN4664CO3NQYh532kL9zkZJ7Fmm_FSs5PAxmxyjj-H4d2eS7uhaqFszrVsMgC7skmtpmPUTkNmYEW0VxVSPaSgjw77bYgCiE70IwPekuB7atMLKgRSzM.a4feeH2PwKBQ4mBw_asjVk25rfjhd0H_AF-rx8YuX2Y&amp;amp;dib_tag=se&amp;amp;keywords=Python%E7%BC%96%E7%A8%8B%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%AE%9E%E8%B7%B5&amp;amp;qid=1744552124&amp;amp;sprefix=python%E7%BC%96%E7%A8%8B&amp;#43;%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%AE%9E%E8%B7%B5%2Caps%2C757&amp;amp;sr=8-1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;亚马逊&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://detail.tmall.com/item.htm?detail_redpacket_pop=true&amp;amp;id=536495534720&amp;amp;mi_id=R36nYb5SiBNteX8gI6aNkMeJYPiPMOQi9Cn9YLu6M0U0k4NDWkhhoP-Kn9mcT6ikncjom1DOMxVEskYL-KXx6EhOh-zhkMGdqt8H6nBpVo4&amp;amp;ns=1&amp;amp;priceTId=undefined&amp;amp;query=Python%E7%BC%96%E7%A8%8B%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%AE%9E%E8%B7%B5&amp;amp;skuId=5664873834920&amp;amp;spm=a21n57.1.hoverItem.1&amp;amp;utparam=%7B%22aplus_abtest%22%3A%222bd1096e5f93092bfe2cde699a9615ce%22%7D&amp;amp;xxc=ad_ztc&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;淘宝&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://item.jd.com/11993134.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;京东&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
 &lt;h4 id=&#34;笨办法学python&#34;&gt;📘&lt;strong&gt;《笨办法学Python》&lt;/strong&gt;
 &lt;/h4&gt;&lt;p&gt;✨ &lt;strong&gt;亮点&lt;/strong&gt;：&lt;/p&gt;
 &lt;ul&gt;
@@ -51,17 +61,8 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;特别适合喜欢「边敲边学」的i人&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;实体书&lt;/strong&gt;：&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.amazon.com/-/zh/dp/B01EP93RGU?__mk_zh_CN=%E4%BA%9A%E9%A9%AC%E9%80%8A%E7%BD%91%E7%AB%99&amp;amp;crid=1NS7O2ZQH47Z5&amp;amp;dib=eyJ2IjoiMSJ9.7l7JGhX-Shxyv-5Wd1rgVkSMqKDAGdU-oaqX3y5ieN8K1NViB4D286J8wskhjV0kP4TVHqAKwIWNkDrbnLwB2w.KQ_nHbRbw5hs6KnRUE23GQu9TW5rCuiStdaSBpHK9UA&amp;amp;dib_tag=se&amp;amp;keywords=%E3%80%8A%E7%AC%A8%E5%8A%9E%E6%B3%95%E5%AD%A6Python%E3%80%8B&amp;amp;qid=1744552337&amp;amp;sprefix=python%E7%BC%96%E7%A8%8B&amp;#43;%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%AE%9E%E8%B7%B5%2Caps%2C1924&amp;amp;sr=8-2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;亚马逊&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://detail.tmall.com/item.htm?detail_redpacket_pop=true&amp;amp;id=618280365676&amp;amp;mi_id=RMfs4rEmUvvnrqHcRix9ohdI85-YHgxKmNenFJOR3RyQI29EHaVU6Jo9U04Z84AZlOtLiQQaVurnNIIxLFB7YzCNlwNPDqz06XquFv2_ZgY&amp;amp;ns=1&amp;amp;priceTId=2147826517445523493706563e1bb2&amp;amp;query=%E3%80%8A%E7%AC%A8%E5%8A%9E%E6%B3%95%E5%AD%A6Python%E3%80%8B&amp;amp;spm=a21n57.1.hoverItem.1&amp;amp;utparam=%7B%22aplus_abtest%22%3A%2217e89c2f3d53ea5eccc400a2605b66ca%22%7D&amp;amp;xxc=ad_ztc&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;淘宝&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://item.jd.com/28823471438.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;京东&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
 &lt;h4 id=&#34;python编程快速上手&#34;&gt;📘&lt;strong&gt;《Python编程快速上手》&lt;/strong&gt;
 &lt;/h4&gt;&lt;p&gt;✨ &lt;strong&gt;优势&lt;/strong&gt;：&lt;/p&gt;
 &lt;ul&gt;
@@ -71,17 +72,8 @@
 &lt;li&gt;&lt;code&gt;√ 自动填写Excel表格&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;√ 邮件轰炸机（慎用hhh）&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;实体书&lt;/strong&gt;：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.amazon.com/-/zh/dp/1718502702?__mk_zh_CN=%E4%BA%9A%E9%A9%AC%E9%80%8A%E7%BD%91%E7%AB%99&amp;amp;crid=3T3BCOS4QCU2N&amp;amp;dib=eyJ2IjoiMSJ9.Ih0aHdEn9tecOXulDLrx5fnWAPuwHViCQgGTMdDJCl2s-9DuAIVuGizU3Ea52Kz1LicWD6q33IuP42M_A3pCj5GawxqgCtoZBitP8qiRr6rTMGi3m1Urc0_EP-dxvAeUEXLP7Llk8nGvCspGF04NbW6ACgvXF8mTHorcvOwxv5olKNg5tFNfJB20DUP-KdohSNW9KMz8o6yw7W_t6zp0UvRtmgUUKX8Ng4SJcK2Sm2g.3-sBtrh0fievpIPU1xawbBqcVC7MMqTUlNhyoGRPCJU&amp;amp;dib_tag=se&amp;amp;keywords=%E3%80%8APython%E7%BC%96%E7%A8%8B%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B%E3%80%8B&amp;amp;qid=1744552470&amp;amp;sprefix=python%E7%BC%96%E7%A8%8B%E5%BF%AB%E9%80%9F%E4%B8%8A&amp;#43;%2Caps%2C376&amp;amp;sr=8-7&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;亚马逊&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://detail.tmall.com/item.htm?detail_redpacket_pop=true&amp;amp;id=535885451256&amp;amp;mi_id=LCJZSHCEdSoGIdgIF1ZYtnpRAGqO567wNQ0mEthkIqCzqwVI4mXYdNAVnoL63nxbt52xaoyqV_XzsPeMBRlYDGSSUqxAGMz45KHJfcgUCt8&amp;amp;ns=1&amp;amp;priceTId=2147826517445525616246408e1bb2&amp;amp;query=%E3%80%8APython%E7%BC%96%E7%A8%8B%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B%E3%80%8B&amp;amp;skuId=5515062436266&amp;amp;spm=a21n57.1.hoverItem.1&amp;amp;utparam=%7B%22aplus_abtest%22%3A%22efb638df22ab841dd4d61e9c4deb3983%22%7D&amp;amp;xxc=ad_ztc&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;淘宝&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://item.jd.com/13131482.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;京东&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h4 id=&#34;python官方手册httpsdocspythonorg3&#34;&gt;📜&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.python.org/3/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Python官方手册&lt;/a&gt;&lt;/strong&gt;
+&lt;h4 id=&#34;-python官方手册httpsdocspythonorg3&#34;&gt;📜 &lt;a class=&#34;link&#34; href=&#34;https://docs.python.org/3/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Python官方手册&lt;/a&gt;
 &lt;/h4&gt;&lt;p&gt;✨ &lt;strong&gt;核心模块解剖&lt;/strong&gt;：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;语法圣典&lt;/strong&gt;：&lt;/li&gt;
@@ -94,8 +86,8 @@
 &lt;li&gt;→ &lt;code&gt;__magic_methods__&lt;/code&gt;魔法方法大全&lt;/li&gt;
 &lt;li&gt;→ &lt;code&gt;ctypes&lt;/code&gt;调用C库&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;集体智慧编程httpswwwamazoncom-zhdp0596529325__mk_zh_cne4ba9ae9a9ace9808ae7bd91e7ab99dibeyj2ijoimsj9xif3cj2sys5ho9uf-hldaxqdlb3bvo0qv_mez3hscsfvhp9v-9lkc0bumj0ft0_pqccmgu6sgxeg-tpdo7w0g6vuexnpifjlqodlzjs8rktcowmdxlzldl6itjmxzi4czcugqb_lyzg5goake3tjpwjegnhhjymh7bf_fsl7rp1hi7cazhiwjkmb73fm3gwchimgv67fjkmutlgdbesgy_1bqmj7zcotyrqdpguttr4n3zgym6gsnx0xql4tljgdkvr-6ebhtxcxljmk3ry2_odib_tagsekeywordsprogrammingcollectiveintelligenceqid1744554493sr8-1programming-collective-intelligence&#34;&gt;📘&lt;strong&gt;《&lt;a class=&#34;link&#34; href=&#34;https://www.amazon.com/-/zh/dp/0596529325?__mk_zh_CN=%E4%BA%9A%E9%A9%AC%E9%80%8A%E7%BD%91%E7%AB%99&amp;amp;dib=eyJ2IjoiMSJ9.Xif3Cj2sYS5HO9Uf-HldaxqDlB3bvO0QV_MEZ3hSCSFvHP9v-9LKC0bUMj0Ft0_PqCCmGU6sGxeG-TpDO7W0g6vuExNPifJLQODLzjs8rktcOwMDxLzldL6ITjMXzI4CzCuGQb_lYZg5goaKe3TjPwjEGNHhJymH7BF_FSL7RP1HI7CaZhiWJkMB73fM3gwcHImGV67FjkMUtLGdbesGy_1bQMj7zCoTYRqDpGUttR4.N3zgYm6gSnx0xqL4TLJGDkVr-6ebhTxcXLJMk3ry2_o&amp;amp;dib_tag=se&amp;amp;keywords=Programming&amp;#43;Collective&amp;#43;Intelligence&amp;amp;qid=1744554493&amp;amp;sr=8-1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;集体智慧编程&lt;/a&gt;》(Programming Collective Intelligence)&lt;/strong&gt;
+&lt;h4 id=&#34;集体智慧编程httpswwwamazoncom-zhdp0596529325__mk_zh_cne4ba9ae9a9ace9808ae7bd91e7ab99dibeyj2ijoimsj9xif3cj2sys5ho9uf-hldaxqdlb3bvo0qv_mez3hscsfvhp9v-9lkc0bumj0ft0_pqccmgu6sgxeg-tpdo7w0g6vuexnpifjlqodlzjs8rktcowmdxlzldl6itjmxzi4czcugqb_lyzg5goake3tjpwjegnhhjymh7bf_fsl7rp1hi7cazhiwjkmb73fm3gwchimgv67fjkmutlgdbesgy_1bqmj7zcotyrqdpguttr4n3zgym6gsnx0xql4tljgdkvr-6ebhtxcxljmk3ry2_odib_tagsekeywordsprogrammingcollectiveintelligenceqid1744554493sr8-1&#34;&gt;📘《&lt;a class=&#34;link&#34; href=&#34;https://www.amazon.com/-/zh/dp/0596529325?__mk_zh_CN=%E4%BA%9A%E9%A9%AC%E9%80%8A%E7%BD%91%E7%AB%99&amp;amp;dib=eyJ2IjoiMSJ9.Xif3Cj2sYS5HO9Uf-HldaxqDlB3bvO0QV_MEZ3hSCSFvHP9v-9LKC0bUMj0Ft0_PqCCmGU6sGxeG-TpDO7W0g6vuExNPifJLQODLzjs8rktcOwMDxLzldL6ITjMXzI4CzCuGQb_lYZg5goaKe3TjPwjEGNHhJymH7BF_FSL7RP1HI7CaZhiWJkMB73fM3gwcHImGV67FjkMUtLGdbesGy_1bQMj7zCoTYRqDpGUttR4.N3zgYm6gSnx0xqL4TLJGDkVr-6ebhTxcXLJMk3ry2_o&amp;amp;dib_tag=se&amp;amp;keywords=Programming&amp;#43;Collective&amp;#43;Intelligence&amp;amp;qid=1744554493&amp;amp;sr=8-1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;集体智慧编程&lt;/a&gt;》
 &lt;/h4&gt;&lt;p&gt;✨ &lt;strong&gt;闪光亮点&lt;/strong&gt;：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;推荐系统调教术&lt;/strong&gt;：&lt;/li&gt;
@@ -136,27 +128,124 @@
 &lt;li&gt;→ 在Android手机运行Python控制智能逗猫棒&lt;/li&gt;
 &lt;li&gt;→ 用生成器实现&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;进阶&#34;&gt;进阶
-&lt;/h2&gt;&lt;h4 id=&#34;python-cookbook&#34;&gt;📘&lt;strong&gt;《Python Cookbook》&lt;/strong&gt;
-&lt;/h4&gt;&lt;p&gt;✨ &lt;strong&gt;硬核亮点&lt;/strong&gt;：&lt;/p&gt;
+&lt;h4 id=&#34;python源码剖析&#34;&gt;📘《Python源码剖析》
+&lt;/h4&gt;&lt;p&gt;✨ 特点：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;134个「即食代码菜谱」&lt;/strong&gt;：&lt;/li&gt;
-&lt;li&gt;→ 数据清洗黑魔法（Pandas花式操作）&lt;/li&gt;
-&lt;li&gt;→ 并发编程「防秃指南」（线程池/协程实战）&lt;/li&gt;
-&lt;li&gt;→ 元类魔法手册（控制类的诞生过程✨）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;每章结构&lt;/strong&gt;：&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;问题&lt;/strong&gt; → 日常编码痛点（比如「字典键值反转时冲突咋办？」）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;方案&lt;/strong&gt; → 最佳实践代码片段&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;原理&lt;/strong&gt; → 深度解剖标准库源码&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;深入解析&lt;/strong&gt;：本书深入解析了Python解释器的内部工作原理，适合对Python底层实现感兴趣的读者。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;源码解读&lt;/strong&gt;：详细解读了Python的核心源代码，帮助读者理解Python的工作机制。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;关键模块&lt;/strong&gt;：涵盖了Python中的多个关键模块和组件，如内存管理、对象模型、字节码编译等。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;调试技巧&lt;/strong&gt;：提供了许多调试和优化Python代码的技巧，有助于提高开发效率。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;高级主题&lt;/strong&gt;：涉及一些高级主题，如垃圾回收、多线程支持等，适合希望深入了解Python内部机制的开发者。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;实体书&lt;/strong&gt;：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.amazon.com/-/zh/dp/7115379599?__mk_zh_CN=%E4%BA%9A%E9%A9%AC%E9%80%8A%E7%BD%91%E7%AB%99&amp;amp;crid=3S3SU0DZ6DTYJ&amp;amp;dib=eyJ2IjoiMSJ9.kj5xOviEV_97lgnwiHPxHgrNNUTC0BAJJ6QdS4eYeLxuU_OEuMp9K6naC0PikLu72U50fwwGh7jS3Y8l4Eji4_aXgaLEuvqJjuPANk-z_Cg.a0WbHnm3JEf4_4m0mPGRoJjpbSaEuhBF2FrxbelZxp4&amp;amp;dib_tag=se&amp;amp;keywords=Python&amp;#43;Cookbook&amp;#43;%E4%B8%AD%E6%96%87%E7%89%88&amp;amp;qid=1744553002&amp;amp;sprefix=python&amp;#43;cookbook&amp;#43;%E4%B8%AD%E6%96%87%E7%89%88%2Caps%2C798&amp;amp;sr=8-2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;亚马逊&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://item.jd.com/13897579.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;京东&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h4 id=&#34;effective-python&#34;&gt;📘&lt;strong&gt;《Effective Python》&lt;/strong&gt;
+&lt;h4 id=&#34;python-coursehttpwwwpython-courseeu&#34;&gt;📜《&lt;a class=&#34;link&#34; href=&#34;http://www.python-course.eu/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;python-course&lt;/a&gt;》
+&lt;/h4&gt;&lt;p&gt;✨ 特点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;合懂英语的人入门python，例子深入浅出并且覆盖很多容易出错的细节，而且篇幅较短&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;think-python&#34;&gt;📘《Think Python》
+&lt;/h4&gt;&lt;p&gt;✨ 特点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;适合初学者&lt;/strong&gt;：本书非常适合Python编程的初学者，内容由浅入深，易于理解。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;强调思考&lt;/strong&gt;：不仅教授Python语法，还注重培养读者的编程思维和问题解决能力。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实例丰富&lt;/strong&gt;：书中包含大量的代码示例和练习题，帮助读者巩固所学知识。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;开源资源&lt;/strong&gt;：该书是开源的，可以免费在线阅读，并且有丰富的社区支持和补充材料。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;简洁明了&lt;/strong&gt;：语言简洁明了，没有过多的技术术语，使得学习过程更加顺畅。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;利用-python-进行数据分析&#34;&gt;📘《利用 Python 进行数据分析》
+&lt;/h4&gt;&lt;p&gt;✨ 特点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;全面覆盖&lt;/strong&gt;：本书全面介绍了使用Python进行数据分析的各种工具和技术，包括Pandas、NumPy、Matplotlib等。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实战导向&lt;/strong&gt;：通过实际案例和项目来讲解如何处理和分析数据，帮助读者掌握实用技能。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;逐步指导&lt;/strong&gt;：从基础的数据处理到高级的数据分析方法，逐步引导读者深入学习。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;代码示例&lt;/strong&gt;：书中提供了大量的代码示例，方便读者理解和实践。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;适用广泛&lt;/strong&gt;：不仅适合初学者，也适合有一定经验的数据分析师和科学家。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;python学习手册第4版&#34;&gt;📘《Python学习手册（第4版）》
+&lt;/h4&gt;&lt;p&gt;✨ 特点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;全面覆盖&lt;/strong&gt;：本书详细介绍了Python语言的各个方面，从基础语法到高级主题都有涉及。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实例丰富&lt;/strong&gt;：通过大量的代码示例和实际应用案例，帮助读者更好地理解和掌握Python编程。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;适合各层次读者&lt;/strong&gt;：无论是初学者还是有经验的开发者，都能从中受益。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;深入浅出&lt;/strong&gt;：作者以清晰易懂的方式讲解复杂的概念和技术，使学习过程更加顺畅。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;更新及时&lt;/strong&gt;：第4版更新了Python 3的相关内容，确保读者能够学到最新的技术和最佳实践。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;像计算机科学家一样思考python-第2版&#34;&gt;📘《像计算机科学家一样思考Python (第2版)》
+&lt;/h4&gt;&lt;p&gt;✨ 特点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;思维方式&lt;/strong&gt;：本书不仅仅教授Python编程，更注重培养读者的计算思维和问题解决能力。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;基础扎实&lt;/strong&gt;：从基本的语法和数据结构开始讲解，逐步深入到更复杂的主题。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;示例丰富&lt;/strong&gt;：通过大量的代码示例和练习题，帮助读者巩固所学知识。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;适合初学者&lt;/strong&gt;：特别适合编程新手，通过循序渐进的方式引导读者进入编程世界。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;免费资源&lt;/strong&gt;：提供在线版本和配套资源，方便读者学习和参考。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;python-machine-learning&#34;&gt;📘《Python Machine Learning》
+&lt;/h4&gt;&lt;p&gt;✨ 特点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;全面覆盖&lt;/strong&gt;：本书涵盖了机器学习的基础知识以及使用Python进行实际应用的各个方面。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实战导向&lt;/strong&gt;：通过大量的代码示例和项目，帮助读者理解和实现各种机器学习算法。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;工具库介绍&lt;/strong&gt;：详细介绍了常用的Python机器学习库，如scikit-learn、TensorFlow等。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;适合初学者和进阶者&lt;/strong&gt;：既适合机器学习初学者入门，也适合有一定基础的读者深入学习。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;python-机器学习基础教程&#34;&gt;📘《Python 机器学习基础教程》
+&lt;/h4&gt;&lt;p&gt;✨ 特点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;基础知识&lt;/strong&gt;：本书详细介绍了机器学习的基础概念和算法，适合初学者入门。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实战项目&lt;/strong&gt;：通过多个实际案例和项目，帮助读者将理论知识应用到实践中。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;代码示例&lt;/strong&gt;：提供了丰富的Python代码示例，便于读者理解和实现各种机器学习模型。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;工具库介绍&lt;/strong&gt;：介绍了常用的Python机器学习库，如scikit-learn、pandas等，并提供了详细的使用指南。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;python游戏编程快速上手第4版&#34;&gt;📘《Python游戏编程快速上手（第4版）》
+&lt;/h4&gt;&lt;p&gt;✨ 特点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;适合初学者&lt;/strong&gt;：本书专为没有编程经验的读者设计，通过游戏开发的方式教授Python编程。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实战项目&lt;/strong&gt;：书中包含多个游戏项目的开发，从简单的猜数字游戏到更复杂的2D游戏，逐步引导读者掌握游戏编程技巧。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;使用Pygame库&lt;/strong&gt;：详细介绍了如何使用Pygame库进行游戏开发，包括图形绘制、事件处理、动画等。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;代码示例&lt;/strong&gt;：提供了丰富的代码示例和详细的注释，帮助读者理解每一部分的功能和实现方法。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;python袖珍指南&#34;&gt;📘《Python袖珍指南》
+&lt;/h4&gt;&lt;p&gt;✨ 特点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;简洁明了&lt;/strong&gt;：本书以简洁的方式介绍了Python语言的核心概念和语法，适合快速查阅。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;便携设计&lt;/strong&gt;：体积小巧，便于携带，可以随时随地进行学习和参考。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;涵盖广泛&lt;/strong&gt;：虽然篇幅不长，但涵盖了Python的常用库、数据结构、文件操作等多个方面。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实用示例&lt;/strong&gt;：提供了简短而实用的代码示例，帮助读者快速理解和应用相关知识点。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;python自然语言处理&#34;&gt;📘《Python自然语言处理》
+&lt;/h4&gt;&lt;p&gt;✨ 特点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;全面覆盖&lt;/strong&gt;：本书全面介绍了自然语言处理（NLP）的基本概念、技术和工具。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实战项目&lt;/strong&gt;：通过多个实战项目，帮助读者理解和应用NLP技术，包括文本处理、情感分析、机器翻译等。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;库和工具&lt;/strong&gt;：详细讲解了常用的NLP库，如NLTK、spaCy和gensim，并提供了丰富的代码示例。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;理论与实践结合&lt;/strong&gt;：不仅讲解了NLP的理论基础，还提供了大量的实际操作案例，适合初学者和进阶读者。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;爱上python&#34;&gt;📘《爱上Python》
+&lt;/h4&gt;&lt;p&gt;✨ 特点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;适合初学者&lt;/strong&gt;：本书面向Python编程的初学者，内容通俗易懂，适合没有任何编程基础的读者。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实例丰富&lt;/strong&gt;：通过大量的实例和练习，帮助读者快速掌握Python编程的基础知识。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;趣味性强&lt;/strong&gt;：以轻松有趣的方式讲解Python编程，使学习过程更加愉快。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;全面覆盖&lt;/strong&gt;：涵盖了Python编程的基础语法、数据结构、文件操作等内容，为读者打下坚实的基础。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;可爱的python&#34;&gt;📘《可爱的Python》
+&lt;/h4&gt;&lt;p&gt;✨ 特点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;适合初学者&lt;/strong&gt;：本书面向Python编程的初学者，内容简洁明了，适合没有任何编程背景的读者。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实例丰富&lt;/strong&gt;：通过丰富的实例和练习题，帮助读者理解和掌握Python编程的基本概念和语法。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;趣味性强&lt;/strong&gt;：采用轻松幽默的语言风格，让学习过程更加有趣和愉快。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;全面覆盖&lt;/strong&gt;：涵盖了Python的基础知识、数据结构、函数、模块等内容，为读者提供了一个全面的学习路径。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;进阶&#34;&gt;进阶
+&lt;/h2&gt;&lt;h4 id=&#34;python-cookbook&#34;&gt;📘《Python Cookbook》
+&lt;/h4&gt;&lt;p&gt;✨ 特点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;高级编程技巧&lt;/strong&gt;：本书面向有一定Python基础的读者，提供了大量高级编程技巧和解决方案。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实用代码示例&lt;/strong&gt;：书中包含了大量的实际代码示例，涵盖了从数据处理、网络编程到并发编程等多个领域。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;最佳实践&lt;/strong&gt;：强调Python编程的最佳实践，帮助读者编写更高效、更优雅的代码。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;模块化内容&lt;/strong&gt;：每章都是独立的主题，方便读者根据需要选择性阅读。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;社区贡献&lt;/strong&gt;：内容由多位Python专家共同编写，汇集了广泛的社区智慧和经验。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;effective-python&#34;&gt;📘《Effective Python》
 &lt;/h4&gt;&lt;p&gt;✨ &lt;strong&gt;质变指南&lt;/strong&gt;：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;90个Pythonic编程技巧&lt;/li&gt;
@@ -164,13 +253,8 @@
 &lt;li&gt;详解元类/协程/内存管理等高级话题&lt;/li&gt;
 &lt;li&gt;🎁 &lt;strong&gt;彩蛋&lt;/strong&gt;：第二章教你用__slots__给对象瘦身，内存节省40%+！&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;实体书&lt;/strong&gt;：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://detail.tmall.com/item.htm?abbucket=20&amp;amp;detail_redpacket_pop=true&amp;amp;id=743653444741&amp;amp;mi_id=zpvorPPU5qZ9yT77CxpfZboFb8CmAH3ISA-WrzVMj6Rg2Pygsi2oT44hYilkHy-Uu1Kz1rlnmOQh-LaYi39phx56kFcEtJ28dk4nppBieCE&amp;amp;ns=1&amp;amp;priceTId=2147826517445529495453077e1bb2&amp;amp;query=Python%20Cookbook%20%E4%B8%AD%E6%96%87%E7%89%88&amp;amp;spm=a21n57.1.hoverItem.3&amp;amp;utparam=%7B%22aplus_abtest%22%3A%22f7d56b612562f89e4c42fd4c85292f66%22%7D&amp;amp;xxc=taobaoSearch&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;淘宝&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h4 id=&#34;beginning-python-games-developmenthttpswwwamazoncom-zhdpb01jctxe3y__mk_zh_cne4ba9ae9a9ace9808ae7bd91e7ab99dibeyj2ijoimsj9ipb7qz7k9v_0roqj04okuxtnp2srrgcjyrfwosoooc6l9detbnkohexbjdsl774dlxxoyunhz31wczp_1d1vq-m17jn7bygfbexwni4f-rxlcc36r-iqnh1cogkkfnkhlx3bqhenqtrhp0oan2bushu6y5i0wwrtvs4cwhh0dfsraes9ftcrdowhwmgaec4q46elbyl1kloqu-skb_euec61qeibbg-zs7jszxkluayzfxhq3fwfwfv4cnaoqpi4s8y-ajzqxrikcyj-p5wc3odib_tagsekeywordsbeginningpythongamesdevelopmentqid1744554024sr8-2&#34;&gt;📘&lt;strong&gt;《&lt;a class=&#34;link&#34; href=&#34;https://www.amazon.com/-/zh/dp/B01JCTXE3Y?__mk_zh_CN=%E4%BA%9A%E9%A9%AC%E9%80%8A%E7%BD%91%E7%AB%99&amp;amp;dib=eyJ2IjoiMSJ9.IpB7qz7K9v_0rOqJ04okUxTNP2srrgcjYRfwoSOoOc6l9deTbnkOhExBJDsl774dLXXoYuNHz31wCzp_1d1Vq-M17JN7bygFBExWNI4F-rxLcC36r-IqnH1cogKKfnkhlx3bQheNqTRHp0oAn2BUSHu6y5I0WwRTVS4CwHh0dFSRAEs9FtcRdOWhWMgaEC4q46elbyl1KloQu-SKB_euEC61qeibbg-zS7JszXkluaY.zfxHQ3fwFwfV4cnAOqpI4S8y-AJZqxRIKcYj-P5Wc3o&amp;amp;dib_tag=se&amp;amp;keywords=Beginning&amp;#43;Python&amp;#43;Games&amp;#43;Development&amp;amp;qid=1744554024&amp;amp;sr=8-2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Beginning Python Games Development&lt;/a&gt;》&lt;/strong&gt;
+&lt;h4 id=&#34;beginning-python-games-developmenthttpswwwamazoncom-zhdpb01jctxe3y__mk_zh_cne4ba9ae9a9ace9808ae7bd91e7ab99dibeyj2ijoimsj9ipb7qz7k9v_0roqj04okuxtnp2srrgcjyrfwosoooc6l9detbnkohexbjdsl774dlxxoyunhz31wczp_1d1vq-m17jn7bygfbexwni4f-rxlcc36r-iqnh1cogkkfnkhlx3bqhenqtrhp0oan2bushu6y5i0wwrtvs4cwhh0dfsraes9ftcrdowhwmgaec4q46elbyl1kloqu-skb_euec61qeibbg-zs7jszxkluayzfxhq3fwfwfv4cnaoqpi4s8y-ajzqxrikcyj-p5wc3odib_tagsekeywordsbeginningpythongamesdevelopmentqid1744554024sr8-2&#34;&gt;📘《&lt;a class=&#34;link&#34; href=&#34;https://www.amazon.com/-/zh/dp/B01JCTXE3Y?__mk_zh_CN=%E4%BA%9A%E9%A9%AC%E9%80%8A%E7%BD%91%E7%AB%99&amp;amp;dib=eyJ2IjoiMSJ9.IpB7qz7K9v_0rOqJ04okUxTNP2srrgcjYRfwoSOoOc6l9deTbnkOhExBJDsl774dLXXoYuNHz31wCzp_1d1Vq-M17JN7bygFBExWNI4F-rxLcC36r-IqnH1cogKKfnkhlx3bQheNqTRHp0oAn2BUSHu6y5I0WwRTVS4CwHh0dFSRAEs9FtcRdOWhWMgaEC4q46elbyl1KloQu-SKB_euEC61qeibbg-zS7JszXkluaY.zfxHQ3fwFwfV4cnAOqpI4S8y-AJZqxRIKcYj-P5Wc3o&amp;amp;dib_tag=se&amp;amp;keywords=Beginning&amp;#43;Python&amp;#43;Games&amp;#43;Development&amp;amp;qid=1744554024&amp;amp;sr=8-2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Beginning Python Games Development&lt;/a&gt;》
 &lt;/h4&gt;&lt;p&gt;✨ &lt;strong&gt;硬核萌点&lt;/strong&gt;：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Pygame框架全解剖&lt;/strong&gt;：从像素移动到碰撞检测的「保姆级教程」&lt;/li&gt;
@@ -181,8 +265,8 @@
 &lt;li&gt;→ 联机桌游（网络模块实战）&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;隐藏福利&lt;/strong&gt;：教你用Python给游戏角色换装（伪·奇迹暖暖引擎）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;python绝技运用python成为顶级黑客httpsitemjdcom11848567html&#34;&gt;📘&lt;strong&gt;《&lt;a class=&#34;link&#34; href=&#34;https://item.jd.com/11848567.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Python绝技：运用Python成为顶级黑客&lt;/a&gt;》&lt;/strong&gt;
+&lt;h4 id=&#34;python绝技运用python成为顶级黑客httpsitemjdcom11848567html&#34;&gt;📘《&lt;a class=&#34;link&#34; href=&#34;https://item.jd.com/11848567.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Python绝技：运用Python成为顶级黑客&lt;/a&gt;》
 &lt;/h4&gt;&lt;p&gt;✨ &lt;strong&gt;暗网级亮点&lt;/strong&gt;：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;渗透工具DIY&lt;/strong&gt;：&lt;/li&gt;
@@ -195,7 +279,75 @@
 &lt;li&gt;→ 代理IP池轮换&lt;/li&gt;
 &lt;li&gt;→ 自动化痕迹清理&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;不定期更新当中，如有错误或者有推荐的书籍欢迎补充。(●&amp;rsquo;◡&amp;rsquo;●)&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&#34;流畅的python&#34;&gt;📘《流畅的Python》
+&lt;/h4&gt;&lt;p&gt;✨ 特点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;简洁高效&lt;/strong&gt;：本书专注于教授如何编写简洁、高效的Python代码，帮助读者提升编程水平。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;最佳实践&lt;/strong&gt;：书中提供了许多Python编程的最佳实践和模式，帮助读者写出更优雅的代码。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;深入理解&lt;/strong&gt;：通过详细解释Python的核心概念和特性，帮助读者深入理解语言的内部机制。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实战案例&lt;/strong&gt;：包含丰富的实例和案例分析，使读者能够在实际项目中应用所学知识。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;适合进阶学习&lt;/strong&gt;：适合有一定基础的Python开发者，进一步提高编程技能。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;深入理解python特性&#34;&gt;📘《深入理解Python特性》
+&lt;/h4&gt;&lt;p&gt;✨ 特点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;深入浅出&lt;/strong&gt;：本书详细解释了Python的一些高级特性和内部机制，适合希望深入了解Python的读者。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实战案例&lt;/strong&gt;：通过实际代码示例和案例分析，帮助读者更好地理解和应用这些特性。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;性能优化&lt;/strong&gt;：书中讨论了如何利用Python的特性进行代码优化，提高程序性能。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;适合进阶学习&lt;/strong&gt;：适合有一定Python基础的开发者，进一步提升编程技能和对语言的理解。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;dive-into-python-3&#34;&gt;📘《Dive Into Python 3》
+&lt;/h4&gt;&lt;p&gt;✨ 特点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;深入浅出&lt;/strong&gt;：本书以实用和易懂的方式介绍了Python 3的各个方面，适合各个层次的Python开发者。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实例丰富&lt;/strong&gt;：通过大量的代码示例和实际项目，帮助读者更好地理解和应用Python 3的新特性。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;全面覆盖&lt;/strong&gt;：不仅涵盖了基础语法，还深入探讨了高级主题，如面向对象编程、函数式编程等。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;适合迁移学习&lt;/strong&gt;：特别适合从Python 2迁移到Python 3的开发者，书中详细解释了两者之间的差异。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;python-in-a-nutshell&#34;&gt;📘《Python in a Nutshell》
+&lt;/h4&gt;&lt;p&gt;✨ 特点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;全面覆盖&lt;/strong&gt;：本书涵盖了Python语言的各个方面，从基础语法到高级特性都有详细讲解。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实用性强&lt;/strong&gt;：提供了大量的实际代码示例，帮助读者快速理解和应用Python的各种功能。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;参考手册&lt;/strong&gt;：书中包含了大量的API和库的使用说明，适合作为日常开发的参考手册。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;适合不同水平的读者&lt;/strong&gt;：无论是初学者还是有经验的开发者，都能从本书中找到有价值的内容。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;python编程之美最佳实践指南&#34;&gt;📘《Python编程之美：最佳实践指南》
+&lt;/h4&gt;&lt;p&gt;✨ 特点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;最佳实践&lt;/strong&gt;：本书专注于Python编程的最佳实践，帮助读者编写更清晰、高效和可维护的代码。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;设计模式&lt;/strong&gt;：介绍了多种设计模式及其在Python中的应用，提升代码的结构和可扩展性。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;代码质量&lt;/strong&gt;：强调代码质量和可读性，提供了一系列提高代码质量的方法和工具。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实战案例&lt;/strong&gt;：通过实际案例展示了如何应用这些最佳实践，使理论与实践相结合。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;python数据科学手册&#34;&gt;📘《Python数据科学手册》
+&lt;/h4&gt;&lt;p&gt;✨ 特点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;全面覆盖&lt;/strong&gt;：本书涵盖了数据科学领域的各个方面，包括数据处理、可视化、机器学习和统计分析。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;工具库介绍&lt;/strong&gt;：详细介绍了Python中常用的数据科学工具库，如NumPy、Pandas、Matplotlib、Scikit-Learn等。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实战案例&lt;/strong&gt;：通过丰富的实战案例和代码示例，帮助读者理解和应用数据科学的知识和技术。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;理论与实践结合&lt;/strong&gt;：不仅讲解了数据科学的理论基础，还提供了大量的实际操作案例，适合初学者和有经验的数据科学家。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;python深度学习&#34;&gt;📘《Python深度学习》
+&lt;/h4&gt;&lt;p&gt;✨ 特点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;全面覆盖&lt;/strong&gt;：本书全面介绍了深度学习的基础知识和高级技术，适合从初学者到有经验的开发者。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Keras库&lt;/strong&gt;：主要使用Keras库进行讲解，Keras是一个用户友好的深度学习框架，可以快速实现各种深度学习模型。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实战项目&lt;/strong&gt;：通过多个实战项目，帮助读者理解和应用深度学习技术，包括图像分类、自然语言处理等。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;代码示例&lt;/strong&gt;：提供了丰富的代码示例和详细的解释，帮助读者动手实践并加深理解。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;视频类&#34;&gt;视频类
+&lt;/h2&gt;&lt;h4 id=&#34;python爬虫3小时超快速入门pythonhttpswwwbilibilicomvideobv1d54y1g7dbvd_source6b014d30a68d015d911962e24c47f524&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1d54y1g7db/?vd_source=6b014d30a68d015d911962e24c47f524&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;【Python+爬虫】3小时超快速入门Python&lt;/a&gt;
+&lt;/h4&gt;&lt;h4 id=&#34;黑马程序员python教程httpswwwbilibilicomvideobv1qw4y1a7fuvd_source6b014d30a68d015d911962e24c47f524&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1qW4y1a7fU/?vd_source=6b014d30a68d015d911962e24c47f524&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;黑马程序员python教程&lt;/a&gt;
+&lt;/h4&gt;&lt;h4 id=&#34;pytorch深度学习快速入门教程httpswwwbilibilicomvideobv1he411t7rnvd_source6b014d30a68d015d911962e24c47f524spm_id_from333788videopodepisodes&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1hE411t7RN?vd_source=6b014d30a68d015d911962e24c47f524&amp;amp;spm_id_from=333.788.videopod.episodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;PyTorch深度学习快速入门教程&lt;/a&gt;
+&lt;/h4&gt;&lt;h4 id=&#34;入门到精通python全栈开发教程httpswwwbilibilicomvideobv1wd4y1o7asvd_source6b014d30a68d015d911962e24c47f524&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1wD4y1o7AS/?vd_source=6b014d30a68d015d911962e24c47f524&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;入门到精通(Python全栈开发教程)&lt;/a&gt;
+&lt;/h4&gt;&lt;h4 id=&#34;python-full-course-for-beginnershttpsyoutube_uqrj0tkzlcsi0abaxhqpral-eprb&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://youtu.be/_uQrJ0TkZlc?si=0abaxhQprAL-ePrB&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Python Full Course for Beginners&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;不定期更新当中，如有错误或者有推荐的书籍欢迎补充。(●&amp;rsquo;◡&amp;rsquo;●)&lt;/strong&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
