@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="简单部署使用ollama">
-<title>使用Ollama部署Ai模型</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="提供KMS的激活服务">
+<title>KMS</title>
 
-<link rel='canonical' href='https://yuzia.fun/p/ollama/'>
+<link rel='canonical' href='https://yuzia.fun/p/kms/'>
 
-<link rel="stylesheet" href="/scss/style.min.b82bf1f02c6a3bf1838229788292274e1766e06d55a9174e5b82208c801ce67b.css"><meta property='og:title' content="使用Ollama部署Ai模型">
-<meta property='og:description' content="简单部署使用ollama">
-<meta property='og:url' content='https://yuzia.fun/p/ollama/'>
+<link rel="stylesheet" href="/scss/style.min.b82bf1f02c6a3bf1838229788292274e1766e06d55a9174e5b82208c801ce67b.css"><meta property='og:title' content="KMS">
+<meta property='og:description' content="提供KMS的激活服务">
+<meta property='og:url' content='https://yuzia.fun/p/kms/'>
 <meta property='og:site_name' content='Yuzi_ska'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-11-18T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-11-18T00:00:00&#43;00:00'/><meta property='og:image' content='https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/20230717095021.png' />
-<meta name="twitter:title" content="使用Ollama部署Ai模型">
-<meta name="twitter:description" content="简单部署使用ollama"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/20230717095021.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-07-11T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-07-11T00:00:00&#43;00:00'/><meta property='og:image' content='https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/1740150509517.png' />
+<meta name="twitter:title" content="KMS">
+<meta name="twitter:description" content="提供KMS的激活服务"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/1740150509517.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-web/style.css" />
@@ -285,13 +285,52 @@ body {font-family: LXGW WenKai Screen;}
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#下载ollama">下载Ollama</a></li>
-    <li><a href="#调取ollama">调取Ollama</a></li>
-    <li><a href="#下载模型">下载模型</a></li>
-    <li><a href="#查看下载的模型文件与调用">查看下载的模型文件与调用</a></li>
-    <li><a href="#常见问题以及解决方案">常见问题以及解决方案</a>
+    <li><a href="#服务地址">服务地址</a>
       <ol>
-        <li><a href="#time-out报错"><strong>time out报错</strong></a></li>
+        <li><a href="#激活步骤管理员命令执行">激活步骤（管理员命令执行）</a></li>
+        <li><a href="#密钥">密钥</a></li>
+        <li><a href="#windows-serverltsc-版本">Windows Server（LTSC 版本）</a>
+          <ol>
+            <li><a href="#windows-server-2025">Windows Server 2025</a></li>
+            <li><a href="#windows-server-2022">Windows Server 2022</a></li>
+            <li><a href="#windows-server-2019">Windows Server 2019</a></li>
+            <li><a href="#windows-server-2016">Windows Server 2016</a></li>
+          </ol>
+        </li>
+        <li><a href="#windows-server-半年频道版本">Windows Server (半年频道版本)</a>
+          <ol>
+            <li><a href="#windows-server-版本-20h2200419091903-和-1809">Windows Server 版本 20H2、2004、1909、1903 和 1809</a></li>
+          </ol>
+        </li>
+        <li><a href="#windows-11-和-windows-10-半年频道版本">Windows 11 和 Windows 10 (半年频道版本)</a></li>
+        <li><a href="#windows-10-ltscltsb-版本">Windows 10 (LTSC/LTSB 版本)</a>
+          <ol>
+            <li><a href="#windows-10-ltsc-2019">Windows 10 LTSC 2019</a></li>
+            <li><a href="#windows-10-ltsb-2016">Windows 10 LTSB 2016</a></li>
+            <li><a href="#windows-10-ltsb-2015">Windows 10 LTSB 2015</a></li>
+          </ol>
+        </li>
+        <li><a href="#早期版本的-windows-server">早期版本的 Windows Server</a>
+          <ol>
+            <li><a href="#windows-server-版本-1803">Windows Server 版本 1803</a></li>
+            <li><a href="#windows-server-版本-1709">Windows Server 版本 1709</a></li>
+            <li><a href="#windows-server-2012-r2">Windows Server 2012 R2</a></li>
+            <li><a href="#windows-server-2012">Windows Server 2012</a></li>
+            <li><a href="#windows-server-2008-r2">Windows Server 2008 R2</a></li>
+            <li><a href="#windows-server-2008">Windows Server 2008</a></li>
+          </ol>
+        </li>
+        <li><a href="#早期版本的-windows">早期版本的 Windows</a>
+          <ol>
+            <li><a href="#windows-81">Windows 8.1</a></li>
+            <li><a href="#windows-8">Windows 8</a></li>
+            <li><a href="#windows-7">Windows 7</a></li>
+          </ol>
+        </li>
+        <li><a href="#激活说明">激活说明</a></li>
+        <li><a href="#officevol-版本激活步骤管理员命令执行">Office（VOL 版本）激活步骤（管理员命令执行）</a></li>
+        <li><a href="#office-密钥列表">Office 密钥列表</a></li>
+        <li><a href="#more">More</a></li>
       </ol>
     </li>
   </ol>
@@ -308,9 +347,9 @@ body {font-family: LXGW WenKai Screen;}
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/p/ollama/">
+            <a href="/p/kms/">
                 
-                    <img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/20230717095021.png" loading="lazy" alt="Featured image of post 使用Ollama部署Ai模型" />
+                    <img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/1740150509517.png" loading="lazy" alt="Featured image of post KMS" />
                 
             </a>
         </div>
@@ -320,12 +359,12 @@ body {font-family: LXGW WenKai Screen;}
     
     <header class="article-category">
         
-            <a href="/categories/ai/" >
-                AI
-            </a>
-        
             <a href="/categories/%E6%8A%80%E6%9C%AF/" >
                 技术
+            </a>
+        
+            <a href="/categories/%E5%88%86%E4%BA%AB/" >
+                分享
             </a>
         
     </header>
@@ -333,12 +372,12 @@ body {font-family: LXGW WenKai Screen;}
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/ollama/">使用Ollama部署Ai模型</a>
+            <a href="/p/kms/">KMS</a>
         </h2>
     
         
         <h3 class="article-subtitle">
-            简单部署使用ollama
+            提供KMS的激活服务
         </h3>
         
     </div>
@@ -359,7 +398,7 @@ body {font-family: LXGW WenKai Screen;}
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2024-11-18</time>
+                <time class="article-time--published">2025-07-11</time>
             </div>
         
 
@@ -374,7 +413,7 @@ body {font-family: LXGW WenKai Screen;}
 
 
                 <time class="article-time--reading">
-                    阅读时长: 1 分钟
+                    阅读时长: 3 分钟
                 </time>
             </div>
         
@@ -389,60 +428,569 @@ body {font-family: LXGW WenKai Screen;}
     <section class="article-content">
     
     
-    <h2 id="下载ollama">下载Ollama
-</h2><p>点击此处下载<a class="link" href="https://ollama.com/download/windows"  target="_blank" rel="noopener"
-    >Ollama</a>，选择对应的系统版本下载即可。</p>
-<img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-18_00-43-45.png" alt="install" style="zoom:50%;" />
-<p>随后来到安装界面，点击install，无需进行其他操作，等待完成即可。</p>
-<img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-18_00-45-55.png" alt="安装"  />
-<h2 id="调取ollama">调取Ollama
-</h2><p>由于Ollama没有图形界面，所以需要使用命令行工具调取。</p>
-<p>输入</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Ollama
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>查看Ollama是否能被正常调用，如下图</p>
-<img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-18_00-51-33.png" alt="调用"  />
-<p>显示以下结果即为正常。</p>
-<h2 id="下载模型">下载模型
-</h2><p><strong>如果Ollama正常，前往<a class="link" href="https://ollama.com/search"  target="_blank" rel="noopener"
-    >Ollama</a>官网模型地址下载需要的模型。</strong></p>
-<p>在Ollama模型地址打开任意一个模型，如下图演示的Ollama3.2模型。</p>
-<img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-18_00-57-06.png" alt="下载模型"  />
-<p>点击此处代码块右边的复制按键。</p>
-<img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-18_00-59-32.png" alt="下载"  />
-<p>复制完成后打开命令行，将复制后的代码粘贴进去。</p>
-<img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-18_00-59-47.png" alt="xiazai"  />
-<p>按下回车后即可开始下载。</p>
-<h2 id="查看下载的模型文件与调用">查看下载的模型文件与调用
-</h2><p>可以通过输入</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Ollama list
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>查看下载的模型文件。如需调用，输入“</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Ollama run 任意模型名字
-</span></span></code></pre></td></tr></table>
-</div>
-</div><img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/2024-11-18_01-04-03.png"  />
-<p><strong>看到这样的提示则代表调用正常，就可以愉快的与大模型对话了，如果需要退出，可以直接关闭命令行，Ollama在一定时间后会自动释放显存，也可以输入“/bye”指令退出。</strong></p>
-<h2 id="常见问题以及解决方案">常见问题以及解决方案
-</h2><h3 id="time-out报错"><strong>time out报错</strong>
-</h3><p>如果在中途中出现time out报错，是因为国内拉取不稳定，多复制几次下载即可。</p>
+    <h1 id="kms">KMS
+</h1><p>KMS 激活服务，slmgr 命令激活 Windows 系统、Office</p>
+<h2 id="服务地址">服务地址
+</h2><p><strong><a class="link" href="http://kms.skana.cn"  target="_blank" rel="noopener"
+    >kms.skana.cn</a></strong></p>
+<h3 id="激活步骤管理员命令执行">激活步骤（管理员命令执行）
+</h3><ol>
+<li>设置服务 <code>slmgr -skms kms.skana.cn</code></li>
+<li>安装密钥 <code>slmgr -ipk 版本对应秘钥</code></li>
+<li>激活系统 <code>slmgr -ato</code></li>
+</ol>
+<h3 id="密钥">密钥
+</h3><p><a class="link" href="https://learn.microsoft.com/zh-cn/windows-server/get-started/kms-client-activation-keys"  target="_blank" rel="noopener"
+    >https://learn.microsoft.com/zh-cn/windows-server/get-started/kms-client-activation-keys</a></p>
+<p><a class="link" href="https://github.com/MicrosoftDocs/windowsserverdocs/blob/main/WindowsServerDocs/get-started/kms-client-activation-keys.md"  target="_blank" rel="noopener"
+    >kms-client-activation-keys.md</a></p>
+<h3 id="windows-serverltsc-版本">Windows Server（LTSC 版本）
+</h3><h4 id="windows-server-2025">Windows Server 2025
+</h4><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>操作系统版本</th>
+          <th>KMS 客户端安装密钥</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Windows Server 2025 Standard</td>
+          <td>TVRH6-WHNXV-R9WG3-9XRFY-MY832</td>
+      </tr>
+      <tr>
+          <td>Windows Server 2025 Datacenter</td>
+          <td>D764K-2NDRG-47T6Q-P8T8W-YP6DF</td>
+      </tr>
+      <tr>
+          <td>Windows Server 2025 Datacenter: Azure Edition</td>
+          <td>XGN3F-F394H-FD2MY-PP6FD-8MCRC</td>
+      </tr>
+  </tbody>
+</table></div>
+<h4 id="windows-server-2022">Windows Server 2022
+</h4><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>操作系统版本</th>
+          <th>KMS 客户端安装密钥</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Windows Server 2022 Standard</td>
+          <td>VDYBN-27WPP-V4HQT-9VMD4-VMK7H</td>
+      </tr>
+      <tr>
+          <td>Windows Server 2022 Datacenter</td>
+          <td>WX4NM-KYWYW-QJJR4-XV3QB-6VM33</td>
+      </tr>
+      <tr>
+          <td>Windows Server 2022 Datacenter: Azure Edition</td>
+          <td>NTBV8-9K7Q8-V27C6-M2BTV-KHMXV</td>
+      </tr>
+  </tbody>
+</table></div>
+<h4 id="windows-server-2019">Windows Server 2019
+</h4><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>操作系统版本</th>
+          <th>KMS 客户端安装密钥</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Windows Server 2019 Standard</td>
+          <td>N69G4-B89J2-4G8F4-WWYCC-J464C</td>
+      </tr>
+      <tr>
+          <td>Windows Server 2019 Datacenter</td>
+          <td>WMDGN-G9PQG-XVVXX-R3X43-63DFG</td>
+      </tr>
+      <tr>
+          <td>Windows Server 2019 Essentials</td>
+          <td>WVDHN-86M7X-466P6-VHXV7-YY726</td>
+      </tr>
+  </tbody>
+</table></div>
+<h4 id="windows-server-2016">Windows Server 2016
+</h4><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>操作系统版本</th>
+          <th>KMS 客户端安装密钥</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Windows Server 2016 Standard</td>
+          <td>WC2BQ-8NRM3-FDDYY-2BFGV-KHKQY</td>
+      </tr>
+      <tr>
+          <td>Windows Server 2016 Datacenter</td>
+          <td>CB7KF-BWN84-R7R2Y-793K2-8XDDG</td>
+      </tr>
+      <tr>
+          <td>Windows Server 2016 Essentials</td>
+          <td>JCKRF-N37P4-C2D82-9YXRT-4M63B</td>
+      </tr>
+  </tbody>
+</table></div>
+<h3 id="windows-server-半年频道版本">Windows Server (半年频道版本)
+</h3><h4 id="windows-server-版本-20h2200419091903-和-1809">Windows Server 版本 20H2、2004、1909、1903 和 1809
+</h4><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>操作系统版本</th>
+          <th>KMS 客户端安装密钥</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Windows Server Standard</td>
+          <td>N2KJX-J94YW-TQVFB-DG9YT-724CC</td>
+      </tr>
+      <tr>
+          <td>Windows Server Datacenter</td>
+          <td>6NMRW-2C8FM-D24W7-TQWMY-CWH2D</td>
+      </tr>
+  </tbody>
+</table></div>
+<h3 id="windows-11-和-windows-10-半年频道版本">Windows 11 和 Windows 10 (半年频道版本)
+</h3><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>操作系统版本</th>
+          <th>KMS 客户端安装密钥</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Windows 10/11 专业版</td>
+          <td>W269N-WFGWX-YVC9B-4J6C9-T83GX</td>
+      </tr>
+      <tr>
+          <td>Windows 10/11 专业版 N</td>
+          <td>MH37W-N47XK-V7XM9-C7227-GCQG9</td>
+      </tr>
+      <tr>
+          <td>Windows 10/11 专业工作站</td>
+          <td>NRG8B-VKK3Q-CXVCJ-9G2XF-6Q84J</td>
+      </tr>
+      <tr>
+          <td>Windows 10/11 专业工作站 N</td>
+          <td>9FNHH-K3HBT-3W4TD-6383H-6XYWF</td>
+      </tr>
+      <tr>
+          <td>Windows 10/11 专业教育版</td>
+          <td>6TP4R-GNPTD-KYYHQ-7B7DP-J447Y</td>
+      </tr>
+      <tr>
+          <td>Windows 10/11 专业教育版 N</td>
+          <td>YVWGF-BXNMC-HTQYQ-CPQ99-66QFC</td>
+      </tr>
+      <tr>
+          <td>Windows 10/11 教育版</td>
+          <td>NW6C2-QMPVW-D7KKK-3GKT6-VCFB2</td>
+      </tr>
+      <tr>
+          <td>Windows 10/11 教育版 N</td>
+          <td>2WH4N-8QGBV-H22JP-CT43Q-MDWWJ</td>
+      </tr>
+      <tr>
+          <td>Windows 10/11 企业版</td>
+          <td>NPPR9-FWDCX-D2C8J-H872K-2YT43</td>
+      </tr>
+      <tr>
+          <td>Windows 10/11 企业版 N</td>
+          <td>DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4</td>
+      </tr>
+      <tr>
+          <td>Windows 10/11 企业版 G</td>
+          <td>YYVX9-NTFWV-6MDM3-9PT4T-4M68B</td>
+      </tr>
+      <tr>
+          <td>Windows 10/11 企业版 G N</td>
+          <td>44RPN-FTY23-9VTTB-MP9BX-T84FV</td>
+      </tr>
+  </tbody>
+</table></div>
+<h3 id="windows-10-ltscltsb-版本">Windows 10 (LTSC/LTSB 版本)
+</h3><h4 id="windows-10-ltsc-2019">Windows 10 LTSC 2019
+</h4><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>操作系统版本</th>
+          <th>KMS 客户端安装密钥</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Windows 10 企业版 LTSC 2019</td>
+          <td>M7XTQ-FN8P6-TTKYV-9D4CC-J462D</td>
+      </tr>
+      <tr>
+          <td>Windows 10 企业版 N LTSC 2019</td>
+          <td>92NFX-8DJQP-P6BBQ-THF9C-7CG2H</td>
+      </tr>
+  </tbody>
+</table></div>
+<h4 id="windows-10-ltsb-2016">Windows 10 LTSB 2016
+</h4><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>操作系统版本</th>
+          <th>KMS 客户端安装密钥</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Windows 10 企业版 LTSB 2016</td>
+          <td>DCPHK-NFMTC-H88MJ-PFHPY-QJ4BJ</td>
+      </tr>
+      <tr>
+          <td>Windows 10 企业版 N LTSB 2016</td>
+          <td>QFFDN-GRT3P-VKWWX-X7T3R-8B639</td>
+      </tr>
+  </tbody>
+</table></div>
+<h4 id="windows-10-ltsb-2015">Windows 10 LTSB 2015
+</h4><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>操作系统版本</th>
+          <th>KMS 客户端安装密钥</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Windows 10 企业版 2015 LTSB</td>
+          <td>WNMTR-4C88C-JK8YV-HQ7T2-76DF9</td>
+      </tr>
+      <tr>
+          <td>Windows 10 企业版 2015 LTSB N</td>
+          <td>2F77B-TNFGY-69QQF-B8YKP-D69TJ</td>
+      </tr>
+  </tbody>
+</table></div>
+<h3 id="早期版本的-windows-server">早期版本的 Windows Server
+</h3><h4 id="windows-server-版本-1803">Windows Server 版本 1803
+</h4><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>操作系统版本</th>
+          <th>KMS 客户端安装密钥</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Windows Server Standard</td>
+          <td>PTXN8-JFHJM-4WC78-MPCBR-9W4KR</td>
+      </tr>
+      <tr>
+          <td>Windows Server Datacenter</td>
+          <td>2HXDN-KRXHB-GPYC7-YCKFJ-7FVDG</td>
+      </tr>
+  </tbody>
+</table></div>
+<h4 id="windows-server-版本-1709">Windows Server 版本 1709
+</h4><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>操作系统版本</th>
+          <th>KMS 客户端安装密钥</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Windows Server Standard</td>
+          <td>DPCNP-XQFKJ-BJF7R-FRC8D-GF6G4</td>
+      </tr>
+      <tr>
+          <td>Windows Server Datacenter</td>
+          <td>6Y6KB-N82V8-D8CQV-23MJW-BWTG6</td>
+      </tr>
+  </tbody>
+</table></div>
+<h4 id="windows-server-2012-r2">Windows Server 2012 R2
+</h4><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>操作系统版本</th>
+          <th>KMS 客户端安装密钥</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Windows Server 2012 R2 Standard</td>
+          <td>D2N9P-3P6X9-2R39C-7RTCD-MDVJX</td>
+      </tr>
+      <tr>
+          <td>Windows Server 2012 R2 Datacenter</td>
+          <td>W3GGN-FT8W3-Y4M27-J84CP-Q3VJ9</td>
+      </tr>
+      <tr>
+          <td>Windows Server 2012 R2 Essentials</td>
+          <td>KNC87-3J2TX-XB4WP-VCPJV-M4FWM</td>
+      </tr>
+  </tbody>
+</table></div>
+<h4 id="windows-server-2012">Windows Server 2012
+</h4><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>操作系统版本</th>
+          <th>KMS 客户端安装密钥</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Windows Server 2012</td>
+          <td>BN3D2-R7TKB-3YPBD-8DRP2-27GG4</td>
+      </tr>
+      <tr>
+          <td>Windows Server 2012 N</td>
+          <td>8N2M2-HWPGY-7PGT9-HGDD8-GVGGY</td>
+      </tr>
+      <tr>
+          <td>Windows Server 2012 单语言版</td>
+          <td>2WN2H-YGCQR-KFX6K-CD6TF-84YXQ</td>
+      </tr>
+      <tr>
+          <td>Windows Server 2012 特定国家/地区版</td>
+          <td>4K36P-JN4VD-GDC6V-KDT89-DYFKP</td>
+      </tr>
+      <tr>
+          <td>Windows Server 2012 Server Standard</td>
+          <td>XC9B7-NBPP2-83J2H-RHMBY-92BT4</td>
+      </tr>
+      <tr>
+          <td>Windows Server 2012 MultiPoint Standard</td>
+          <td>HM7DN-YVMH3-46JC3-XYTG7-CYQJJ</td>
+      </tr>
+      <tr>
+          <td>Windows Server 2012 MultiPoint Premium</td>
+          <td>XNH6W-2V9GX-RGJ4K-Y8X6F-QGJ2G</td>
+      </tr>
+      <tr>
+          <td>Windows Server 2012 Datacenter</td>
+          <td>48HP8-DN98B-MYWDG-T2DCC-8W83P</td>
+      </tr>
+  </tbody>
+</table></div>
+<h4 id="windows-server-2008-r2">Windows Server 2008 R2
+</h4><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>操作系统版本</th>
+          <th>KMS 客户端安装密钥</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Windows Server 2008 R2 Web 版</td>
+          <td>6TPJF-RBVHG-WBW2R-86QPH-6RTM4</td>
+      </tr>
+      <tr>
+          <td>Windows Server 2008 R2 HPC 版</td>
+          <td>TT8MH-CG224-D3D7Q-498W2-9QCTX</td>
+      </tr>
+      <tr>
+          <td>WindowsServer 2008 R2 Standard</td>
+          <td>YC6KT-GKW9T-YTKYR-T4X34-R7VHC</td>
+      </tr>
+      <tr>
+          <td>WindowsServer 2008 R2 企业版</td>
+          <td>489J6-VHDMP-X63PK-3K798-CPX3Y</td>
+      </tr>
+      <tr>
+          <td>WindowsServer 2008 R2 Datacenter</td>
+          <td>74YFP-3QFB3-KQT8W-PMXWJ-7M648</td>
+      </tr>
+      <tr>
+          <td>面向基于 Itanium 系统的 Windows Server 2008 R2</td>
+          <td>GT63C-RJFQ3-4GMB6-BRFB9-CB83V</td>
+      </tr>
+  </tbody>
+</table></div>
+<h4 id="windows-server-2008">Windows Server 2008
+</h4><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>操作系统版本</th>
+          <th>KMS 客户端安装密钥</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Windows Web Server 2008</td>
+          <td>WYR28-R7TFJ-3X2YQ-YCY4H-M249D</td>
+      </tr>
+      <tr>
+          <td>Windows Server 2008 Standard</td>
+          <td>TM24T-X9RMF-VWXK6-X8JC9-BFGM2</td>
+      </tr>
+      <tr>
+          <td>不带 Hyper-V 的 Windows Server 2008 Standard</td>
+          <td>W7VD6-7JFBR-RX26B-YKQ3Y-6FFFJ</td>
+      </tr>
+      <tr>
+          <td>Windows Server 2008 企业版</td>
+          <td>YQGMW-MPWTJ-34KDK-48M3W-X4Q6V</td>
+      </tr>
+      <tr>
+          <td>不带 Hyper-V 的 Windows Server 2008 企业版</td>
+          <td>39BXF-X8Q23-P2WWT-38T2F-G3FPG</td>
+      </tr>
+      <tr>
+          <td>Windows Server 2008 HPC</td>
+          <td>RCTX3-KWVHP-BR6TB-RB6DM-6X7HP</td>
+      </tr>
+      <tr>
+          <td>Windows Server 2008 Datacenter</td>
+          <td>7M67G-PC374-GR742-YH8V4-TCBY3</td>
+      </tr>
+      <tr>
+          <td>不带 Hyper-V 的 Windows Server 2008 Datacenter</td>
+          <td>22XQ2-VRXRG-P8D42-K34TD-G3QQC</td>
+      </tr>
+      <tr>
+          <td>面向基于 Itanium 系统的 Windows Server 2008</td>
+          <td>4DWFP-JF3DJ-B7DTH-78FJB-PDRHK</td>
+      </tr>
+  </tbody>
+</table></div>
+<h3 id="早期版本的-windows">早期版本的 Windows
+</h3><h4 id="windows-81">Windows 8.1
+</h4><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>操作系统版本</th>
+          <th>KMS 客户端安装密钥</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Windows 8.1 专业版</td>
+          <td>GCRJD-8NW9H-F2CDX-CCM8D-9D6T9</td>
+      </tr>
+      <tr>
+          <td>Windows 8.1 专业版 N</td>
+          <td>HMCNV-VVBFX-7HMBH-CTY9B-B4FXY</td>
+      </tr>
+      <tr>
+          <td>Windows 8.1 企业版</td>
+          <td>MHF9N-XY6XB-WVXMC-BTDCT-MKKG7</td>
+      </tr>
+      <tr>
+          <td>Windows 8.1 企业版 N</td>
+          <td>TT4HM-HN7YT-62K67-RGRQJ-JFFXW</td>
+      </tr>
+  </tbody>
+</table></div>
+<h4 id="windows-8">Windows 8
+</h4><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>操作系统版本</th>
+          <th>KMS 客户端安装密钥</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Windows 8 专业版</td>
+          <td>NG4HW-VH26C-733KW-K6F98-J8CK4</td>
+      </tr>
+      <tr>
+          <td>Windows 8 专业版 N</td>
+          <td>XCVCF-2NXM9-723PB-MHCB7-2RYQQ</td>
+      </tr>
+      <tr>
+          <td>Windows 8 企业版</td>
+          <td>32JNW-9KQ84-P47T8-D8GGY-CWCK7</td>
+      </tr>
+      <tr>
+          <td>Windows 8 企业版 N</td>
+          <td>JMNMF-RHW7P-DMY6X-RF3DR-X2BQT</td>
+      </tr>
+  </tbody>
+</table></div>
+<h4 id="windows-7">Windows 7
+</h4><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>操作系统版本</th>
+          <th>KMS 客户端安装密钥</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Windows 7 专业版</td>
+          <td>FJ82H-XT6CR-J8D7P-XQJJ2-GPDD4</td>
+      </tr>
+      <tr>
+          <td>Windows 7 专业版 N</td>
+          <td>MRPKT-YTG23-K7D7T-X2JMM-QY7MG</td>
+      </tr>
+      <tr>
+          <td>Windows 7 专业版 E</td>
+          <td>W82YF-2Q76Y-63HXB-FGJG9-GF7QX</td>
+      </tr>
+      <tr>
+          <td>Windows7 企业版</td>
+          <td>33PXH-7Y6KF-2VJC9-XBBR8-HVTHH</td>
+      </tr>
+      <tr>
+          <td>Windows 7 企业版 N</td>
+          <td>YDRBP-3D83W-TY26F-D46B2-XCKRJ</td>
+      </tr>
+      <tr>
+          <td>Windows 7 企业版 E</td>
+          <td>C29WB-22CC8-VJ326-GHFJW-H9DH4</td>
+      </tr>
+  </tbody>
+</table></div>
+<h3 id="激活说明">激活说明
+</h3><ul>
+<li>KMS 激活有 180 天期限，此期限称为激活有效间隔</li>
+<li>若要保持激活状态，您的系统必须通过至少每 180 天连接一次 KMS 服务器来续订激活</li>
+<li>默认情况下，系统每 7 天自动进行一次激活续订尝试</li>
+<li>在续订客户端激活之后，激活有效间隔重新开始</li>
+<li>综上所述，只要您不超过 180 天以上无法连接互联网，系统会自行续期保持激活状态</li>
+</ul>
+<hr>
+<h3 id="officevol-版本激活步骤管理员命令执行">Office（VOL 版本）激活步骤（管理员命令执行）
+</h3><ol>
+<li>进入安装目录 <code>cd &quot;C:\Program Files (x86)\Microsoft Office\Office16&quot;</code>
+<ul>
+<li>32 位默认一般为 <code>C:\Program Files (x86)\Microsoft Office\Office16</code></li>
+<li>64 位默认一般为 <code>C:\Program Files\Microsoft Office\Office16</code></li>
+<li><strong>Office16</strong> 是 <strong>Office 2016</strong></li>
+<li><strong>Office15</strong> 是 <strong>Office 2013</strong></li>
+<li><strong>Office14</strong> 是 <strong>Office 2010</strong></li>
+<li>打开以上所说的目录，应该有个 <code>OSPP.VBS</code> 文件</li>
+</ul>
+</li>
+<li>注册 KMS 服务 <code>cscript ospp.vbs /sethst:skms.netnr.eu.org</code></li>
+<li>激活 Office <code>cscript ospp.vbs /act</code></li>
+</ol>
+<h3 id="office-密钥列表">Office 密钥列表
+</h3><ul>
+<li><a class="link" href="https://docs.microsoft.com/en-us/DeployOffice/vlactivation/gvlks"  target="_blank" rel="noopener"
+    >https://docs.microsoft.com/en-us/DeployOffice/vlactivation/gvlks</a></li>
+</ul>
+<h3 id="more">More
+</h3><ul>
+<li><a class="link" href="https://kms.cangshui.net"  target="_blank" rel="noopener"
+    >https://kms.cangshui.net</a></li>
+<li><a class="link" href="https://teddysun.com/530.html"  target="_blank" rel="noopener"
+    >https://teddysun.com/530.html</a></li>
+<li><a class="link" href="https://blog.03k.org/post/kms.html"  target="_blank" rel="noopener"
+    >https://blog.03k.org/post/kms.html</a></li>
+<li><a class="link" href="https://github.com/massgravel/Microsoft-Activation-Scripts"  target="_blank" rel="noopener"
+    >https://github.com/massgravel/Microsoft-Activation-Scripts</a></li>
+</ul>
 
 </section>
 
@@ -467,18 +1015,18 @@ body {font-family: LXGW WenKai Screen;}
             
                 
 <article class="has-image">
-    <a href="/p/xai-sign/">
+    <a href="/p/emby-agency/">
         
         
             <div class="article-image">
                 
-                    <img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/20230715225556.png" loading="lazy" data-key="xAI-sign" data-hash="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/20230715225556.png"/>
+                    <img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/1740150509508.jpg" loading="lazy" data-key="emby-agency" data-hash="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/1740150509508.jpg"/>
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">xAI注册与使用</h2>
+            <h2 class="article-title">emby部分反向代理加载缓慢解决方案</h2>
         </div>
     </a>
 </article>
@@ -486,18 +1034,37 @@ body {font-family: LXGW WenKai Screen;}
             
                 
 <article class="has-image">
-    <a href="/p/kms/">
+    <a href="/p/bilibili-block/">
         
         
             <div class="article-image">
                 
-                    <img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/1740150509517.png" loading="lazy" data-key="kms" data-hash="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/1740150509517.png"/>
+                    <img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/1740150509512.png" loading="lazy" data-key="bilibili-block" data-hash="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/1740150509512.png"/>
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">KMS</h2>
+            <h2 class="article-title">bilibili屏蔽提示词分享</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/pythonbook/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/1740150398344.png" loading="lazy" data-key="PythonBook" data-hash="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/1740150398344.png"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">有关Python的书籍整理</h2>
         </div>
     </a>
 </article>
@@ -517,25 +1084,6 @@ body {font-family: LXGW WenKai Screen;}
 
         <div class="article-details">
             <h2 class="article-title">群晖优化虚拟内存以及关闭swap</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
-    <a href="/p/emby-agency/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/1740150509508.jpg" loading="lazy" data-key="emby-agency" data-hash="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/1740150509508.jpg"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">emby部分反向代理加载缓慢解决方案</h2>
         </div>
     </a>
 </article>
