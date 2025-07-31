@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>分享 on Yuzi_ska</title>
-        <link>https://yuzia.fun/categories/%E5%88%86%E4%BA%AB/</link>
+        <link>https://yuzia.cc/categories/%E5%88%86%E4%BA%AB/</link>
         <description>Recent content in 分享 on Yuzi_ska</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Yuzi_ska Blog</copyright>
-        <lastBuildDate>Sat, 17 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzia.fun/categories/%E5%88%86%E4%BA%AB/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 17 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzia.cc/categories/%E5%88%86%E4%BA%AB/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>bilibili屏蔽提示词分享</title>
-        <link>https://yuzia.fun/p/bilibili-block/</link>
+        <link>https://yuzia.cc/p/bilibili-block/</link>
         <pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://yuzia.fun/p/bilibili-block/</guid>
+        <guid>https://yuzia.cc/p/bilibili-block/</guid>
         <description>&lt;img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/1740150509512.png" alt="Featured image of post bilibili屏蔽提示词分享" /&gt;&lt;h1 id=&#34;前言&#34;&gt;前言
 &lt;/h1&gt;&lt;p&gt;个人觉得目前bilibili的弹幕太多无意义弹幕太多，有一大堆引战、刷屏的弹幕，实际观感很差，官方又下架了弹幕屏蔽功能，因此添加了一大堆目前发送比较多的弹幕进行屏蔽，内容可以根据个人需求更改，后续会不定时更新。&lt;/p&gt;
 &lt;p&gt;以下是大致预览图：&lt;/p&gt;
@@ -29,10 +29,10 @@
         </item>
         <item>
         <title>有关Python的书籍整理</title>
-        <link>https://yuzia.fun/p/pythonbook/</link>
+        <link>https://yuzia.cc/p/pythonbook/</link>
         <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://yuzia.fun/p/pythonbook/</guid>
+        <guid>https://yuzia.cc/p/pythonbook/</guid>
         <description>&lt;img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/1740150398344.png" alt="Featured image of post 有关Python的书籍整理" /&gt;&lt;h2 id=&#34;入门&#34;&gt;入门
 &lt;/h2&gt;&lt;h4 id=&#34;python编程从入门到实践&#34;&gt;📘&lt;strong&gt;《Python编程：从入门到实践》&lt;/strong&gt;
 &lt;/h4&gt;&lt;p&gt;✨ &lt;strong&gt;特点&lt;/strong&gt;：&lt;/p&gt;

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>群晖 on Yuzi_ska</title>
-        <link>https://yuzia.fun/categories/%E7%BE%A4%E6%99%96/</link>
+        <link>https://yuzia.cc/categories/%E7%BE%A4%E6%99%96/</link>
         <description>Recent content in 群晖 on Yuzi_ska</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Yuzi_ska Blog</copyright>
-        <lastBuildDate>Fri, 28 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzia.fun/categories/%E7%BE%A4%E6%99%96/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 28 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzia.cc/categories/%E7%BE%A4%E6%99%96/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>群晖优化虚拟内存以及关闭swap</title>
-        <link>https://yuzia.fun/p/dis-swap/</link>
+        <link>https://yuzia.cc/p/dis-swap/</link>
         <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://yuzia.fun/p/dis-swap/</guid>
+        <guid>https://yuzia.cc/p/dis-swap/</guid>
         <description>&lt;img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/1740150509560.jpg" alt="Featured image of post 群晖优化虚拟内存以及关闭swap" /&gt;&lt;h2 id=&#34;起因&#34;&gt;起因
 &lt;/h2&gt;&lt;p&gt;原因是发现群晖明明还有很多的内存也会就经常进行swap交换，导致硬盘一直非常的吵（尤其是多盘位的机型）而且频繁读写也可能导致硬盘寿命下降，因此找的解决方法。&lt;/p&gt;
 &lt;h2 id=&#34;解决方案&#34;&gt;解决方案
@@ -280,10 +280,10 @@
         </item>
         <item>
         <title>使用虚拟机创建软（旁）路由实现魔法上网</title>
-        <link>https://yuzia.fun/p/virtual-pc-deploy-router/</link>
+        <link>https://yuzia.cc/p/virtual-pc-deploy-router/</link>
         <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://yuzia.fun/p/virtual-pc-deploy-router/</guid>
+        <guid>https://yuzia.cc/p/virtual-pc-deploy-router/</guid>
         <description>&lt;img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/1740150398299.jpeg" alt="Featured image of post 使用虚拟机创建软（旁）路由实现魔法上网" /&gt;&lt;h2 id=&#34;准备工作&#34;&gt;准备工作
 &lt;/h2&gt;&lt;p&gt;需要有一个能够24小时开机的主机，比如在Nas或者Server上创建。&lt;/p&gt;
 &lt;h2 id=&#34;创建虚拟机&#34;&gt;创建虚拟机
@@ -421,10 +421,10 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://yuzia.fun/p/virtual-pc-deploy-router/_2025-03-05_23-52-45.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://yuzia.cc/p/virtual-pc-deploy-router/_2025-03-05_23-52-45.png&#34;
 	width=&#34;2215&#34;
 	height=&#34;201&#34;
-	srcset=&#34;https://yuzia.fun/p/virtual-pc-deploy-router/_2025-03-05_23-52-45_hu_a259b5c621c34ecf.png 480w, https://yuzia.fun/p/virtual-pc-deploy-router/_2025-03-05_23-52-45_hu_7b82e866d52a2096.png 1024w&#34;
+	srcset=&#34;https://yuzia.cc/p/virtual-pc-deploy-router/_2025-03-05_23-52-45_hu_a259b5c621c34ecf.png 480w, https://yuzia.cc/p/virtual-pc-deploy-router/_2025-03-05_23-52-45_hu_7b82e866d52a2096.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

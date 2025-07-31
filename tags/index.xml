@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tags on Yuzi_ska</title>
-        <link>https://yuzia.fun/tags/</link>
+        <link>https://yuzia.cc/tags/</link>
         <description>Recent content in Tags on Yuzi_ska</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>Yuzi_ska Blog</copyright><atom:link href="https://yuzia.fun/tags/index.xml" rel="self" type="application/rss+xml" />
+        <copyright>Yuzi_ska Blog</copyright><atom:link href="https://yuzia.cc/tags/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

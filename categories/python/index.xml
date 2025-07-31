@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Python on Yuzi_ska</title>
-        <link>https://yuzia.fun/categories/python/</link>
+        <link>https://yuzia.cc/categories/python/</link>
         <description>Recent content in Python on Yuzi_ska</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Yuzi_ska Blog</copyright>
-        <lastBuildDate>Sun, 13 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzia.fun/categories/python/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 13 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzia.cc/categories/python/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>有关Python的书籍整理</title>
-        <link>https://yuzia.fun/p/pythonbook/</link>
+        <link>https://yuzia.cc/p/pythonbook/</link>
         <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://yuzia.fun/p/pythonbook/</guid>
+        <guid>https://yuzia.cc/p/pythonbook/</guid>
         <description>&lt;img src="https://image-yuzi.oss-cn-shanghai.aliyuncs.com/img/1740150398344.png" alt="Featured image of post 有关Python的书籍整理" /&gt;&lt;h2 id=&#34;入门&#34;&gt;入门
 &lt;/h2&gt;&lt;h4 id=&#34;python编程从入门到实践&#34;&gt;📘&lt;strong&gt;《Python编程：从入门到实践》&lt;/strong&gt;
 &lt;/h4&gt;&lt;p&gt;✨ &lt;strong&gt;特点&lt;/strong&gt;：&lt;/p&gt;
