@@ -7,7 +7,35 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Yuzi_ska Blog</copyright>
-        <lastBuildDate>Fri, 08 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzia.cc/categories/%E5%88%86%E4%BA%AB/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 28 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzia.cc/categories/%E5%88%86%E4%BA%AB/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Netcup域名签发验证错误</title>
+        <link>https://yuzia.cc/p/nc-domain-dns-error/</link>
+        <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yuzia.cc/p/nc-domain-dns-error/</guid>
+        <description>&lt;img src="https://img.skana.cn/img/1740150509517.png" alt="Featured image of post Netcup域名签发验证错误" /&gt;&lt;p&gt;最近Netcup在夏日促销，顺便购买了一个de域名，但是在进行Acme签发的时候，会出现配置正确但签发时出现无法验证请求的问题（如下图）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://img.skana.cn/img/_2025-08-28_15-35-36.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;解决方案&#34;&gt;解决方案
+&lt;/h2&gt;&lt;p&gt;该问题是Netcup的TTL时间过长，导致Acme DNS-01验证不通过，Netcup的TTL测试下来大概在10分钟左右，需要在签发的时候添加一个延迟传播时间，让Acme签发时不会过早验证&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;--dnssleep 600
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;在命令执行以后即可正常签发证书。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>KMS免费激活Windows</title>
         <link>https://yuzia.cc/p/kms/</link>
         <pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
