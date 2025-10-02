@@ -1695,6 +1695,11 @@
     &gt;https://tracker.yuzia.cc/announce&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://t.yzna.de/announce&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://t.yzna.de/announce&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;递归DNS：&lt;/strong&gt;
+DOH：&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://dns.yuzia.cc/dns-query&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://dns.yuzia.cc/dns-query&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;DOQ：&lt;strong&gt;quic://dns.yuzia.cc:853&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;http3:  &lt;strong&gt;h3://dns.yuzia.cc/dns-query&lt;/strong&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
