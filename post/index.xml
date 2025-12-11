@@ -13,7 +13,7 @@
         <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
         
         <guid>https://yuzia.cc/p/esa-free-version-test/</guid>
-        <description>&lt;p&gt;&lt;strong&gt;先说结论（对比edgeone）&lt;/strong&gt;
+        <description>&lt;img src="https://img.skana.cn/img/112178373_p0_master1200.jpg" alt="Featured image of post 阿里云ESA免费版备案域名体验" /&gt;&lt;p&gt;&lt;strong&gt;先说结论（对比edgeone）&lt;/strong&gt;
 缺点：
 对于大陆外的服务器访问依旧存在回源失败问题（香港国际线路机器也存在，之前用付费版的时候也会出现这个问题），腾讯的edgeone从未出现该问题，界面的个人感觉很乱，选项直接间隔太大，功能太杂，看着累，记录那里不能像edgeone那样直接填写自定义填写回源host（规则配置那里改），免费SSL证书有概率申请不下来（CNAME接入方式，托管DCV，三个证书只签下来一个）。
 优点：
