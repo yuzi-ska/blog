@@ -7,7 +7,58 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Yuzi_ska Blog</copyright>
-        <lastBuildDate>Sat, 11 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzia.cc/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 11 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yuzia.cc/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>阿里云ESA免费版备案域名体验</title>
+        <link>https://yuzia.cc/p/esa-free-version-test/</link>
+        <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yuzia.cc/p/esa-free-version-test/</guid>
+        <description>&lt;p&gt;&lt;strong&gt;先说结论（对比edgeone）&lt;/strong&gt;
+缺点：
+对于大陆外的服务器访问依旧存在回源失败问题（香港国际线路机器也存在，之前用付费版的时候也会出现这个问题），腾讯的edgeone从未出现该问题，界面的个人感觉很乱，选项直接间隔太大，功能太杂，看着累，记录那里不能像edgeone那样直接填写自定义填写回源host（规则配置那里改），免费SSL证书有概率申请不下来（CNAME接入方式，托管DCV，三个证书只签下来一个）。
+优点：
+虽然有写明单线程限速，但目前阶段的单线程限速似乎还行，在缓存内的速度为8MB/s，多线程可以跑满千兆（没更高的带宽测试了，后边大概率是会限制，不知道会限制多少）,HTTP/3(QUIC)不收费，其余倒是没感觉有非常大的区别。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;附几张测试图&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ping&lt;/strong&gt;
+&lt;img src=&#34;https://img.skana.cn/img/20251211222019216.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tcping&lt;/strong&gt;
+&lt;img src=&#34;https://img.skana.cn/img/20251211222046074.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;单线程下载&lt;/strong&gt;
+&lt;img src=&#34;https://img.skana.cn/img/20251211222115853.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;多线程下载&lt;/strong&gt;
+&lt;img src=&#34;https://img.skana.cn/img/20251211222131161.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;非严谨测试，仅供参考&lt;/strong&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>启用bbr网络拥塞算法</title>
         <link>https://yuzia.cc/p/bbr-congestion-algorithm/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
