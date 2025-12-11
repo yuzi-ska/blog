@@ -262,7 +262,48 @@ body {font-family: LXGW WenKai Screen;}
     </ol>
 </aside>
 
-    
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#先说结论对比edgeone"><strong>先说结论（对比edgeone）</strong></a>
+      <ol>
+        <li><a href="#缺点">缺点：</a></li>
+        <li><a href="#优点">优点：</a></li>
+      </ol>
+    </li>
+    <li><a href="#附几张测试图"><em>附几张测试图</em></a>
+      <ol>
+        <li><a href="#非严谨测试仅供参考"><strong>非严谨测试，仅供参考</strong></a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
 
             <main class="main full-width">
     <article class="has-image main-article">
@@ -345,13 +386,13 @@ body {font-family: LXGW WenKai Screen;}
     <section class="article-content">
     
     
-    <p><strong>先说结论（对比edgeone）</strong>
-缺点：
-对于大陆外的服务器访问依旧存在回源失败问题（香港国际线路机器也存在，之前用付费版的时候也会出现这个问题），腾讯的edgeone从未出现该问题，界面的个人感觉很乱，选项直接间隔太大，功能太杂，看着累，记录那里不能像edgeone那样直接填写自定义填写回源host（规则配置那里改），免费SSL证书有概率申请不下来（CNAME接入方式，托管DCV，三个证书只签下来一个）。
-优点：
-虽然有写明单线程限速，但目前阶段的单线程限速似乎还行，在缓存内的速度为8MB/s，多线程可以跑满千兆（没更高的带宽测试了，后边大概率是会限制，不知道会限制多少）,HTTP/3(QUIC)不收费，其余倒是没感觉有非常大的区别。</p>
-<p><em>附几张测试图</em></p>
-<p><strong>Ping</strong>
+    <h2 id="先说结论对比edgeone"><strong>先说结论（对比edgeone）</strong>
+</h2><h3 id="缺点">缺点：
+</h3><p>对于大陆外的服务器访问依旧存在回源失败问题（香港国际线路机器也存在，之前用付费版的时候也会出现这个问题），腾讯的edgeone从未出现该问题，界面的个人感觉很乱，选项直接间隔太大，功能太杂，看着累，记录那里不能像edgeone那样直接填写自定义填写回源host（规则配置那里改），免费SSL证书有概率申请不下来（CNAME接入方式，托管DCV，三个证书只签下来一个）。</p>
+<h3 id="优点">优点：
+</h3><p>虽然有写明单线程限速，但目前阶段的单线程限速似乎还行，在缓存内的速度为8MB/s，多线程可以跑满千兆（没更高的带宽测试了，后边大概率是会限制，不知道会限制多少）,HTTP/3(QUIC)不收费，其余倒是没感觉有非常大的区别。</p>
+<h2 id="附几张测试图"><em>附几张测试图</em>
+</h2><p><strong>Ping</strong>
 <img src="https://img.skana.cn/img/20251211222019216.png"
 	
 	
@@ -387,8 +428,8 @@ body {font-family: LXGW WenKai Screen;}
 	
 	
 ></p>
-<p><strong>非严谨测试，仅供参考</strong></p>
-
+<h3 id="非严谨测试仅供参考"><strong>非严谨测试，仅供参考</strong>
+</h3>
 </section>
 
 

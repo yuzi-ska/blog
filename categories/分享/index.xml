@@ -13,13 +13,13 @@
         <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
         
         <guid>https://yuzia.cc/p/esa-free-version-test/</guid>
-        <description>&lt;img src="https://img.skana.cn/img/112178373_p0_master1200.jpg" alt="Featured image of post 阿里云ESA免费版备案域名体验" /&gt;&lt;p&gt;&lt;strong&gt;先说结论（对比edgeone）&lt;/strong&gt;
-缺点：
-对于大陆外的服务器访问依旧存在回源失败问题（香港国际线路机器也存在，之前用付费版的时候也会出现这个问题），腾讯的edgeone从未出现该问题，界面的个人感觉很乱，选项直接间隔太大，功能太杂，看着累，记录那里不能像edgeone那样直接填写自定义填写回源host（规则配置那里改），免费SSL证书有概率申请不下来（CNAME接入方式，托管DCV，三个证书只签下来一个）。
-优点：
-虽然有写明单线程限速，但目前阶段的单线程限速似乎还行，在缓存内的速度为8MB/s，多线程可以跑满千兆（没更高的带宽测试了，后边大概率是会限制，不知道会限制多少）,HTTP/3(QUIC)不收费，其余倒是没感觉有非常大的区别。&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;附几张测试图&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Ping&lt;/strong&gt;
+        <description>&lt;img src="https://img.skana.cn/img/112178373_p0_master1200.jpg" alt="Featured image of post 阿里云ESA免费版备案域名体验" /&gt;&lt;h2 id=&#34;先说结论对比edgeone&#34;&gt;&lt;strong&gt;先说结论（对比edgeone）&lt;/strong&gt;
+&lt;/h2&gt;&lt;h3 id=&#34;缺点&#34;&gt;缺点：
+&lt;/h3&gt;&lt;p&gt;对于大陆外的服务器访问依旧存在回源失败问题（香港国际线路机器也存在，之前用付费版的时候也会出现这个问题），腾讯的edgeone从未出现该问题，界面的个人感觉很乱，选项直接间隔太大，功能太杂，看着累，记录那里不能像edgeone那样直接填写自定义填写回源host（规则配置那里改），免费SSL证书有概率申请不下来（CNAME接入方式，托管DCV，三个证书只签下来一个）。&lt;/p&gt;
+&lt;h3 id=&#34;优点&#34;&gt;优点：
+&lt;/h3&gt;&lt;p&gt;虽然有写明单线程限速，但目前阶段的单线程限速似乎还行，在缓存内的速度为8MB/s，多线程可以跑满千兆（没更高的带宽测试了，后边大概率是会限制，不知道会限制多少）,HTTP/3(QUIC)不收费，其余倒是没感觉有非常大的区别。&lt;/p&gt;
+&lt;h2 id=&#34;附几张测试图&#34;&gt;&lt;em&gt;附几张测试图&lt;/em&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Ping&lt;/strong&gt;
 &lt;img src=&#34;https://img.skana.cn/img/20251211222019216.png&#34;
 	
 	
@@ -55,8 +55,8 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;非严谨测试，仅供参考&lt;/strong&gt;&lt;/p&gt;
-</description>
+&lt;h3 id=&#34;非严谨测试仅供参考&#34;&gt;&lt;strong&gt;非严谨测试，仅供参考&lt;/strong&gt;
+&lt;/h3&gt;</description>
         </item>
         <item>
         <title>启用bbr网络拥塞算法</title>
